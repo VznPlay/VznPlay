@@ -18,11 +18,11 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .perfil {
-  border-radius:51px;
+  border-radius:50px;
   max-height: 156px;
-  border-width: 05px;
+  border-width: 7px;
   border-style: solid;
-  color: rgba(248, 37, 37, 0.913);
+  color: rgb(0, 0, 0);
 }
 
 
