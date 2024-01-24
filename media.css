@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width: 600px) {
+    
+    .nav-bar img, a {
+        width: 80px;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    .nav-bar .zap{
+        text-decoration: none;
+        font-size: 23px;
+        margin-top: 31px;
+        font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 86px;
+        color: rgb(51, 65, 51);
+        font-weight: bold;
+        
+    }
+    .manutencao{
+        display: block;
+    }
+
+    .manutencao img{
+        width: 300px;
+        height: 190px;      
+        margin-top: 190px;
+        margin-left: 155px;
+        }
+
+    
+    .manutencao h2{
+    margin-top: -350px;
+    text-align: center;
+    color: rgb(100, 100, 100);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    .manutencao p{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: -120px;
+        font-size: 15px;
+        color: rgb(97, 92, 92);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .manutencao h4{
+        text-align: center;
+        margin-top: -17px;
+        font-size: 15px;
+    }
+
+    .divv img{
+        height: 15px;
+        
+        }
+
+    #verificado{
+    margin-left: 292px;
+    
+    }
+    .divv, #verificado{
+        margin-top: -15px;
+        }
+    .yout{
+    margin-left: -50px;
+    margin-bottom: -1px;
+        }
+    .you{
+    margin-left: -147px;
+    margin-bottom: -1px;
+        }
+    .whatss{
+    margin-left: -147px;
+    margin-bottom: -1px;
+        }
+        
+    .final{
+    margin-top: 280px;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+    .final p {
+    margin-top: 7px;
+    }
+            
+
+
+
+
+
+
+
+
+
+}

@@ -7,17 +7,119 @@
 }
 
 body{ 
-padding-top:60px;
-background: linear-gradient(236.85deg, rgb(51, 230, 224) 27.26%, rgb(12, 238, 129) 96.03%);
-text-align: center;
-padding-left:30px;
-padding-right: 30px;
-padding-bottom: 13px;
-height: 100vh;
-font-family: Arial, Helvetica, sans-serif;
+background-color: rgba(243, 243, 243, 0.815); 
 }
 
-.perfil {
+.nav-bar{
+  display: flex;
+}
+
+.nav-bar img, a {
+  width: 70px;
+  margin-left: 300px;
+  margin-top: 10px;
+
+}
+
+.nav-bar .zap{
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 27px;
+  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 285.6px;
+  color: rgb(51, 65, 51);
+  font-weight: bold;
+}
+.manutencao{
+  display: flex;
+}
+
+.manutencao img{
+  width: 270px;
+  margin-top: 110px;
+  margin-left: 300px;
+}
+
+.divv img{
+height: 22px;
+
+}
+
+.yout{
+  margin-left: -290px;
+  margin-bottom: -5px;
+}
+.you{
+  margin-left: -295px;
+  margin-bottom: -5px;
+}
+.whatss{
+  margin-left: -295px;
+  margin-bottom: -3px;
+}
+
+#verificado{
+  margin-left: 730px;
+  height: 13px;
+
+}
+
+.divv, #verificado{
+margin-top: -33px;
+margin-right: 15px;
+}
+
+.manutencao h2{
+  color: rgb(100, 100, 100);
+  margin-top: 155px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.manutencao p{
+  margin-top: 256px;
+  margin-left: -342px;
+  font-size: 20px;
+  color: rgb(97, 92, 92);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.manutencao h4{
+  margin-top: 256px;
+  font-size: 20px;
+  margin-left: 19px;
+  
+}
+
+.final{
+text-align: center;
+margin-top: 133px;
+font-size: 25px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.final p {
+  margin-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .perfil {
   border-radius:50px;
   max-height: 156px;
   border-width: 7px;
@@ -109,4 +211,4 @@ font-size: 8px;
 text-align: center;
 margin: 57px;
 
-}
+} */
