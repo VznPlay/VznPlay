@@ -37,19 +37,11 @@
     
     }
     .manutencao p{
-        text-align: center;
-        margin-top: 38px;
-        margin-left: -95px;
-        font-size: 15px;
-        color: rgb(97, 92, 92);
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: none;
         
     }
     .manutencao h4{
-        margin-left: 33px;
-        text-align: center;
-        margin-top: -17px;
-        font-size: 15px;
+        display: none;
         
     }
 
@@ -59,24 +51,28 @@
         }
 
     #verificado{
-    margin-left: 210px;
+    display: none;
     
     }
     .divv, #verificado{
         margin-top: -16.5px;
         height: 10px;
+        display: none;
         }
     .yout{
     margin-left: -58px;
     margin-bottom: -2px;
+    display: none;
         }
     .you{
     margin-left: -49px;
     margin-bottom: -2px;
+    display: none;
         }
     .whatss{
     margin-left: -47px;
     margin-bottom: -2px;
+    display: none;
         }
         
     .final{
