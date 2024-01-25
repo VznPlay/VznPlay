@@ -5,14 +5,14 @@
     
     .nav-bar img, a {
         width: 80px;
-        margin-left: 60px;
+        margin-left: 50px;
         margin-top: 10px;
     }
     .nav-bar .zap{
         font-size: 23px;
         margin-top: 31px;
         font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        margin-left: 46px;
+        margin-left: 33px;
         color: rgb(51, 65, 51);
         font-weight: bold;
         
@@ -30,7 +30,7 @@
 
     
     .manutencao h2{
-    margin-top: -370px;
+    margin-top: -360px;
     text-align: center;
     color: rgb(100, 100, 100);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -59,35 +59,35 @@
         }
 
     #verificado{
-    margin-left: 216px;
+    margin-left: 202px;
     
     }
     .divv, #verificado{
-        margin-top: -16px;
+        margin-top: -16.5px;
         height: 10px;
         }
     .yout{
-    margin-left: -67px;
-    margin-bottom: -1px;
+    margin-left: -58px;
+    margin-bottom: -2px;
         }
     .you{
-    margin-left: -55px;
-    margin-bottom: -1px;
+    margin-left: -49px;
+    margin-bottom: -2px;
         }
     .whatss{
-    margin-left: -55px;
-    margin-bottom: -1px;
+    margin-left: -47px;
+    margin-bottom: -2px;
         }
         
     .final{
-    margin-top: 400px;
+    margin-top:350px;
     font-size: 17px;
     font-family: 'Courier New', Courier, monospace;
     }
 
     .final p {
     margin-top: 7px;
-    font-size: 16px;
+    font-size: 14px;
     }
             
 
