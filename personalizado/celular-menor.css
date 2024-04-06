@@ -1,0 +1,136 @@
+@media (max-width:375px) {
+
+    #imgg{
+        width: 150px;
+        margin-left: -20px;
+    }
+    #nav{
+        margin-top: -5px;
+    }
+    .fale-conosco{
+        display: none;
+    }
+    .topo{
+        position: relative;
+    }
+    #botao2{
+        position: relative;
+        display: block;
+        text-decoration: none;
+        background-color:#3538A1;
+        color: rgb(255, 255, 255);
+        border-radius: 8px;
+        font-size: 13px;
+        padding: 9px;
+        margin-right: 80px;
+        margin-left: 350px;
+        font-weight: bold;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #botao2:hover{
+        background-color: rgba(173, 6, 6, 0.795);
+        border: none;
+        font-weight: bold;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.5s;
+    }
+    
+    /*HEADER, PARTE DO TEXTO E DA IMAGEM*/
+    .h1{
+        margin-top:50px;
+        font-size: 12px;
+        margin-left: -18px;
+    }
+    .texto1 h2{
+        font-size: 43px;
+        margin-left: -20px;
+    }
+    .texto1 p{
+        font-size: 16px;
+        margin-left: -10px;
+    }
+    #img-tablet{
+        width: 410px;
+        margin-top: 90px;
+    }
+    #zero{
+        margin-top: 14px;
+        margin-left: -10px;
+        font-size: 14px;
+        padding-left: 20px;
+        width: 110px;
+    }
+    #img-tablet{
+        width: 350px;
+        margin-top: -8px;
+        margin-left: 2px;
+    }
+    
+    /*PARTE DO SITE IMPORTANTE*/
+    #site{
+        margin-top: 8px;
+    }
+    .out{
+        font-size: 33px;
+        margin-left: 4px;
+    }
+    .card{
+        width: 230px;
+        margin-top: 30px;
+        margin-left: 33px;
+    }
+    .card img{
+        width: 50px;
+        margin-left: 76px;
+    }
+    #card1 h3{
+    font-size: 18px;
+    }
+    #card1 p{
+        margin-top: -25px;
+        font-size: 14px;
+        
+    }
+    #card2 img{
+        margin-top: -10px;
+    }
+    #card2 h3{
+    font-size: 19px;
+    }
+    #card2 p{
+        margin-top: -5px;
+        font-size: 14px;
+    }
+    #card3 img{
+        margin-top: -10px;
+    }
+    #card3 h3{
+    font-size: 19px;
+    }
+    #card3 p{
+        margin-top: -5px;
+        font-size: 14px;
+    }
+    #card4 img{
+        margin-top: -10px;
+        margin-bottom: -20px;
+    }
+    #card4 h3{
+    font-size: 19px;
+    }
+    #card4 p{
+        margin-top: -5px;
+        font-size: 14px;
+    }
+    #foot img{
+        width: 160px;
+    }
+    .footer1{
+        margin-left: -1px;
+        font-size: 11px;
+    }
+    #whatspo{
+        display: none;
+    }
+    
+    }

@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #0a1033;
+    height: 100vh;
+    
+}
+.nav-bar > img{
+    width: 325px;
+    margin-left: 15px;
+    margin-top: 60px;
+    margin-bottom: 18px;
+
+}
+.nav-bar > a{
+    display: flex;
+    margin-left: 95px;
+    margin-top: 16px;
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 4.5px;
+
+}
+#Home-todos:hover{
+    font-style: italic;
+    color: #ff0000;
+    }
+#nav-anc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: 80px;
+background-color: rgba(173, 6, 6, 0.795);
+color: white;
+width: 150px;
+padding: 8px;
+border-radius: 10px;
+box-shadow: 1px 1px 3px black;
+}
+#nav-anc:hover{
+    transition: 0.4s;
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+}
+.icones-princ {
+    margin-top: -289px;
+    
+}
+.icones-princ img{
+    width: 35px;
+    display: flex;
+    margin: 12px;
+    margin-left: 48px;
+}
+/*header parte branca do site*/
+.meio-branco{
+    background-color: white;
+    padding: 20px;
+    width: 950px;
+    height: 490px;
+    margin-left: 340px;
+    margin-top: -381px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 7px rgba(173, 3, 3, 0.568);
+    display: flex; 
+}
+.footer-fim{
+    font-size: 14px;
+    color: white;
+    margin-left: 970px;
+    margin-top: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.shein{
+    border: 2px solid black;
+    height: 220px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 27px;
+    margin-top:130px;
+}
+.shein img{
+    padding: 5px;
+    margin-bottom: -38px;
+    margin-top: -40px;
+    width: 160px;
+}
+.shein  h2{
+ margin-top: 30px;
+}
+.shein p{
+    font-size: 19px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.shein a{
+font-size: 14px;
+background-color:rgba(173, 6, 6, 0.795);
+padding: 11px;
+border-radius: 10px;
+margin-left: 22px;
+margin-right: 22px;
+font-family: 'Courier New', Courier, monospace;
+text-decoration: none;
+color: whitesmoke;
+}
+.shein a:hover{
+    background-color: #0a1033;
+    transition: 0.5s;
+}
+#shopee {
+    margin-top: 3px;
+    margin-bottom: 16px;
+    font-size: 2px;
+}
+#shopee-p{
+    font-size: 18px;
+}
+#aliexpress{
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+#alie-p{
+font-size: 18px;
+}
+#mercado{
+    width: 140px;
+    margin-top: -2px;
+    margin-bottom: 3px;
+}
+#mercado-p{
+font-size: 15px;
+}
+strong{
+    color: red;
+}
+.mercado{
+    display: none;
+}
+.footer-fim p{
+    margin-top: -6px;
+}

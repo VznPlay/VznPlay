@@ -1,0 +1,108 @@
+@media (max-width:375px) {
+body {
+        overflow-x: hidden; 
+}
+
+/*PARTE DA LOGO E DO VOLTAR */
+.nav-geral{
+    position: relative;
+
+}
+.nav-logo img{
+        width: 140px;
+        margin-top: 1px;
+        margin-left: 10px;
+}
+.aparecer li {
+        font-size: 16.3px;
+        margin-left: -13px;
+    
+}
+.nav-ul{
+    margin-right: -10px;
+}
+
+/* PARET DA COPY E DA IMAGEM DA MULHER */
+
+.texto-copy h1{
+    font-size: 18px;
+    
+}
+.texto-copy p{
+    font-size: 10px;
+}
+/* PARETE DOS CARDS DE PREÇOS - PLANO PLAY */
+.card-plano-play{
+    margin-left: 20px;
+}
+/*PARETE DOS CARDS DE PREÇOS - PLANO GOLD */
+.card-plano-gold{
+    margin-left: 20px;
+}
+/* PARETE DOS CARDS DE PREÇOS - PLANO PRO */
+.card-plano-pro{
+    margin-left: 20px;
+}
+/* PARTE DA MULHER APONTANDOO CELULAR COM A IMAGEM DO APP NA TELA*/
+.redes{
+    margin-right: 0px;
+    width: 347px;
+}
+.redes-mulher img{
+    width: 385px;
+    margin-left: -40px;
+    margin-top: 465px;
+}
+.redes-copy h2{
+    margin-top: -700px;
+    font-size: 23px;
+}
+.redes-copy h3{
+    font-size: 16px;
+}
+.redes-copy p{
+    font-size: 13px;
+}
+.redes-comprar{
+    margin-top: 25px;
+    font-size: 16px;
+}
+.redes-copy img{
+    margin-left: 155px;
+    width: 145px;
+}
+
+/*ULTIMO CARD ANTES DO FOOTER*/
+.card-fim{
+    margin-top: 1500px;
+    font-size: 19px;
+}
+.card-fim p{
+    font-size: 15px;
+    margin-bottom: 110px;
+}
+.quebrar{
+    margin-left: 10px;
+}
+.card-fim-1{
+    font-size: 18px;
+}
+.botao-final{
+    margin-left: -70px;
+}
+.img-fim{
+    margin-left: 0px;
+}
+.footer1{
+    font-size: 8px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#ooft img{
+    width: 150px;
+}
+
+
+
+}

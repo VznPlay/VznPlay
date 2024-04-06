@@ -1,0 +1,23 @@
+@media (max-width:375px) {
+    body { overflow-x: hidden; }
+
+    .nav-bar img{
+        margin-top: 0px;
+        margin-left:75px;
+        width: 240px;
+    }
+    
+    /* HEARDER PARTI BRANCA PARA BAIXO*/
+    .meio-branco{
+        width: 316.4px;
+        height: 880px;
+    }
+    .shein{
+        margin-top: -2px;
+        margin-left: 50px;
+    }
+    .footer-fim{
+    margin-left: 10px;
+    padding-bottom: 6px;
+    }
+    }

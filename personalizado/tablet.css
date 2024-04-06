@@ -1,0 +1,85 @@
+@media (min-width: 468px) and (max-width:1024px) {
+
+
+    /*PARTE DA LOGO E DO VOLTAR*/
+    #nav{
+      margin-top: -20px;
+    }
+    #imgg{
+      width: 200px;
+    }
+    .fale-conosco{
+      margin-right: -20px;
+    }
+    #botao{
+      display: inline-block;
+      margin-top: 20px;
+    }
+    header{
+        margin-bottom: 100px;
+        margin-left: 180px ;
+    }
+    /*PARTE DA IMAGEM E DA COPY*/
+    #topo{
+      padding-top: 250px;
+    
+    }
+    .h1{
+      font-size: 26px;
+    }
+    .texto1 p{
+      font-size: 20px;
+    }
+    .br-mala{
+      display: block;
+    }
+    #img-tablet{
+        width: 550px;
+    }
+    
+    /*PARTE DOS CARDS*/
+    .out{
+      padding-top: 150px;
+      font-size: 40px;
+    }
+    .card-princ .card{
+     
+      margin: 40px;
+      margin-left: 90px;
+      width: 260px;
+    }
+    
+    .card-princ .card h3{
+    font-size: 21px;
+    
+    }
+    
+    .card-princ .card img{
+      margin-left: 80px;
+    
+    }
+    .card p{
+      font-size: 15px;
+    }
+    #card1 p{
+     margin-top: -18px;
+    }
+    #card3 img{
+      margin-bottom: 1px;
+    }
+    #foot img{
+      width: 200px;
+    }
+    
+    #whatspo img{
+      position: fixed;
+      bottom: 5px;
+      right: 5px;
+      width: 60px;
+    
+    }
+    
+    
+    }
+    
+    

@@ -1,0 +1,587 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.site-princ{
+    display: none;
+}
+body{
+    background-color: #0a1033;
+    height: 100vh;
+    
+}
+.nav-bar > img{
+    width: 325px;
+    margin-left: 15px;
+    margin-top: 60px;
+    margin-bottom: 18px;
+
+}
+.nav-bar > a{
+    display: flex;
+    margin-left: 95px;
+    margin-top: 16px;
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 4.5px;
+
+}
+#nav-anc{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 24px;
+margin-top: 53px;
+margin-left: 80px;
+background-color: rgba(173, 6, 6, 0.795);
+color: white;
+width: 150px;
+padding: 8px;
+border-radius: 10px;
+box-shadow: 1px 1px 3px black;
+}
+#nav-anc:hover{
+transition: 0.4s;
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+}
+.icones-princ {
+    margin-top: -289px;
+    
+}
+.icones-princ img{
+    width: 35px;
+    display: flex;
+    margin: 6.8px;
+    margin-left: 48px;
+}
+
+/* DANDO DESTAQUE AOS BOTONS ABAIXO DA LOGO */
+#Home-todos:hover{
+font-style: italic;
+color: #ff0000;
+}
+/*HEADER PARTE DO MEIO BRANCO SITE*/
+.meio-branco{
+    background-color: white;
+    padding: 20px;
+    width: 950px;
+    height: 490px;
+    margin-left: 340px;
+    margin-top: -382px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 7px rgba(173, 3, 3, 0.568);
+    
+}
+/*botao fale conosco parte branca*/
+.meio-anc{  
+    margin-left: 840px;
+    text-decoration: none;
+    color: white;
+    background-color:rgba(173, 6, 6, 0.795);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 8px;
+    border-radius: 7px;
+    
+}
+/*mudar cor do botao ao passar o mouse em cima*/
+.meio-anc:hover{
+    transition: 0.6s;
+background-color: #0a1033;
+}
+.meio-branco h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    margin-top: -30px;
+    margin-left: 80px;
+    
+}
+/*section prncipal*/
+.meio-selection1,a{
+    display: flex;
+    text-decoration: none;
+}
+/*imagem dos canais*/
+.meio-div1 .img {
+    width: 170px;
+    padding: 5px;
+    margin-right: 200px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.315);
+    border-radius: 10px;
+    margin-bottom: -3.9px;
+
+}
+/*quadrado grande que tem os itens dos canais / imagem*/
+.meio-div1{
+    border-radius: 10px;
+    border: 2px solid #0a1033;
+    margin-top: 30px;
+    margin-left: 18px;
+}
+/*Paragrafo ao lado daimagem do casal assitindo*/
+.meio-p{
+        margin-left: 200px;
+        margin-top: -167px;
+        margin-bottom: 130.5px;
+        margin-right: 12px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+}
+strong{
+    color: rgb(255, 0, 0);
+}
+/*IMAGENS DE CANAIS*/
+#sbt{
+    position: absolute;
+    width: 18px;
+    margin-top: -116px;
+    margin-left: 198px;
+
+}
+#band{
+    position: absolute;
+    width: 20px;
+    margin-top: -116px;
+    margin-left: 225px;
+
+}
+#redetv{
+    position: absolute;
+    width: 30px;
+    margin-top: -116px;
+    margin-left: 250px;
+
+}
+#record{
+    position: absolute;
+    width: 20px;
+    margin-top: -116px;
+    margin-left: 282px;
+
+}
+#agro{
+    position: absolute;
+    width: 28px;
+    margin-top: -114px;
+    margin-left: 305px;
+
+}
+#lixo{
+    position: absolute;
+    width: 17px;
+    margin-top: -116px;
+    margin-left: 337px;
+
+}
+#ufc{
+    position: absolute;
+    width: 26px;
+    margin-top: -113px;
+    margin-left: 358px;
+
+}
+#telecine{
+    position: absolute;
+    width: 40px;
+    margin-top: -112px;
+    margin-left: 390px;
+
+}
+#jpan{
+    position: absolute;
+    width: 19px;
+    margin-top: -117px;
+    margin-left: 435px;
+
+}
+#star{
+    position: absolute;
+    width: 30px;
+    margin-top: -80px;
+    margin-left: 200px;
+
+}
+#hbomax{
+    position: absolute;
+    width: 40px;
+    margin-top: -78.8px;
+    margin-left: 236px;
+
+}
+#paramount{
+    position: absolute;
+    width: 30px;
+    margin-top: -90px;
+    margin-left: 276px;
+
+}
+#cartoon{
+    position: absolute;
+    width: 30px;
+    margin-top: -84px;
+    margin-left: 306px;
+
+}
+#premiere{
+    position: absolute;
+    width: 47px;
+    margin-top: -79px;
+    margin-left: 338px;
+
+}
+#espn{
+    position: absolute;
+    width: 35px;
+    margin-top: -84px;
+    margin-left: 388px;
+
+}
+#disnay{
+    position: absolute;
+    width: 35px;
+    margin-top: -88px;
+    margin-left: 424px;
+    
+}
+#netflix{
+    position: absolute;
+    width: 35px;
+    margin-top: -55px;
+    margin-left: 200px;
+}
+#combate{
+    position: absolute;
+    width: 45px;
+    margin-top: -55px;
+    margin-left: 410px;
+} 
+/*botao de saiba mais dos canais*/
+#meio-botao{
+        margin-left: -200px;
+        margin-top: 169px;
+        background-color: rgba(173, 6, 6, 0.795);
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 100px;
+        height: 22px;
+        text-align: center;
+        padding: 7px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px black;
+}
+#meio-botao:hover{
+    transition: 0.6s;
+background-color: #0a1033;
+}
+.meio-div2 > img {
+    margin-top: -8px;
+    width: 110px;
+    padding: 3px;
+
+}
+.meio-div2{
+    border-radius: 10px;
+    border: 2px solid #0a1033;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.meio-p1{
+    margin-top: -13px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 16px;
+}
+#meio-botao1{
+    background-color: rgba(173, 6, 6, 0.822);
+    padding: 8px;
+    font-size: 10px;
+    margin-top: 13px;
+    margin-left: 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+#meio-botao1:hover{
+transition: 0.6s;
+background-color: #0a1033;
+}
+.meio-inter > img {
+    margin-top: -14px;
+    width: 140px;
+    height:125px;
+    padding: 3px;
+    margin-left: -13px;
+    margin-right: -40px;
+
+}
+.meio-inter{
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid #0a1033;
+    margin-top: 20px;
+    margin-left: 521px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.meio-pinter{
+    margin-top: -10px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 16px;
+}
+#botao-inter{
+    background-color: rgba(173, 6, 6, 0.822);
+    padding: 8px;
+    font-size: 12px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color:white;
+    margin-left: 10px;
+
+}
+#botao-inter:hover{
+    transition: 0.6s;
+    background-color: #0a1033;
+}
+.meio-selection2{
+    display: flex;
+    position: relative;
+    margin-top: -183px;
+    margin-left: 724px;
+    padding-right: 43px;
+}
+.meio-div3 > img {
+    width: 185px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+.meio-div3{
+    border-radius: 10px;
+    border: 2px solid #0a1033;
+    width: 300px;
+
+}
+.meio-p2{
+    font-weight: 545;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 18px;
+    padding-bottom: 106px;
+}
+.meio-shein{
+    border-radius: 10px;
+    border: 2px solid #0a1033;
+    margin-top: -190px;
+    margin-left: 18px;
+    width: 225px;
+    height: 100px;
+}
+.meio-shein > img {
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-top: -17px;
+    display: flex;
+
+}
+.meio-pshe{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin-top: -70px;
+    margin-left: 127px;
+    
+}
+#botao-shein{
+    background-color: rgba(173, 6, 6, 0.795);
+    padding: 8px;
+    font-size: 11px;
+    margin-top: -25px;
+    margin-left: 13px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+#botao-shein:hover{
+    background-color: #0a1033;
+    transition: .5s;
+}
+.meio-shopee{
+    border-radius: 10px;
+    border: 2px solid #0a1033;
+    width: 300px;
+    margin-top: -104px;
+    margin-left: 255px;
+    width: 225px;
+    height: 100px;
+}
+.meio-shopee > img {
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 37px;
+    display: flex;
+
+}
+.meio-psho{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin-top: -70px;
+    margin-left: 127px;
+    
+}
+#botao-shopee{
+    background-color: rgba(173, 6, 6, 0.795);
+    padding: 8px;
+    font-size: 11px;
+    margin-top: -25px;
+    margin-left: 13px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+#botao-shopee:hover{
+    background-color: #0a1033;
+    transition: .5s;
+}
+.meio-merliv{
+    border-radius: 10px;
+    border: 2px solid #0a1033;
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 225px;
+    height: 100px;
+}
+.meio-merliv > img {
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-top: -2px;
+    display: flex;
+
+}
+.meio-plivre{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-top: -53px;
+    margin-left: 130px;
+    
+}
+#botao-merliv{
+    background-color: rgba(173, 6, 6, 0.795);
+    padding: 8px;
+    font-size: 11px;
+    margin-top: -28px;
+    margin-left: 13px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    
+}
+#botao-merliv:hover{
+    background-color: #0a1033;
+    transition: .5s;
+}
+.meio-aliex{
+    border-radius: 10px;
+    border: 2px solid #0a1033;
+    width: 300px;
+    margin-top: -104px;
+    margin-left: 255px;
+    width: 225px;
+    height: 100px;
+}
+.meio-aliex > img {
+    width: 120px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-top: 22px;
+    margin-bottom: 37px;
+    display: flex;
+
+}
+.meio-paliex{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-top: -70px;
+    margin-left: 124px;
+    
+}
+#botao-aliex{
+    background-color: rgba(173, 6, 6, 0.795);
+    padding: 8px;
+    font-size: 11px;
+    margin-top: -25px;
+    margin-left: 12px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+#botao-aliex:hover{
+    background-color: #0a1033;
+    transition: .5s;
+}
+#meio-botao2{
+    margin-top: -59px;
+    margin-left:33px;
+    background-image: linear-gradient(to left, #2d46d4d8, rgba(214, 32, 32, 0.945), #3ed87ed7 ); 
+    background-size: 500% 100%;
+    animation: animar 5s infinite alternate ;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 105px;
+    height: 30px;
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 3px black;
+    font-size: 15px;
+}
+#meio-botao2:hover{
+animation-name: pulsar;
+animation-duration: 0.5s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+@keyframes animar{
+    0%{
+        background-position-x:0%;
+    }
+    100%{
+        background-position-x:100%;
+    }
+}
+@keyframes pulsar{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+.ultima-img{
+display: none;
+}
+#botao-reserva{
+    display: none;
+}
+.footer-fim{
+    font-size: 14px;
+    color: white;
+    margin-left: 970px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}

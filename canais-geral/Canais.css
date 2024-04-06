@@ -1,0 +1,480 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #0a1033;
+    overflow-x: hidden;
+
+}
+.canais-celular{
+    display: none;
+}
+/* PARTE DA IMAGEM E DO BOTAO VOLTAR */
+.nav-geral{
+    position: fixed;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.966);
+    height: 78px;
+    width: 100vw;
+    z-index: 1;
+}
+.nav-logo img{
+    width: 220px;
+    margin-left: 100px;
+    margin-top: -12px;
+}
+.nav-ul{
+    margin-left: 40px;
+    margin-right: 200px;
+    margin-top: 17px;
+    display: flex;
+}
+.nav-ul a{
+    text-decoration: none;
+}
+.nav-ul a:hover{
+    border-top: 2px solid black;
+}
+.nav-ul li{
+    font-size: 23px;
+    margin: 15px;
+    color: black;
+    font-weight: bold;
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+.nav-voltar{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 90px;
+    font-size: 23px;
+    margin-top: 21px;
+    height: 27px;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #0a1033;
+
+}
+.nav-voltar a{
+    text-decoration: none;
+        color: white;
+}
+.nav-voltar:hover{
+    background-color: rgba(173, 6, 6, 0.795);
+    transition: 0.2s;
+}
+
+/*COPY PRINCIPAL JUNTO COM IMAGEM*/
+.meio-canais {
+
+    display: flex;
+    padding: 10px;
+}
+.copy-canais{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 67px;
+    font-size: 28.6px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.copy-canais h1{ 
+    text-align: left;
+    margin-top: 100px;
+}
+.copy-canais p{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.copy-canais a{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -110px;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+.copy-canais a:hover{
+    background-color: rgba(173, 6, 6, 0.795);
+    transition: 0.2s;
+}
+.copy-img img{
+    width: 600px;
+    margin-right: 70px;
+    margin-top: 60px;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+/*COPY QUALIDADE DO SERVIÇO*/
+.meio-qualidade {
+    margin-top: 50px;
+    background-color: white;
+    width: 100vw;
+    color: #0a1033;
+}
+.meio-qualidade h2{
+    font-size: 37px;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.meio-qualidade p{
+    margin-top: -15px;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*CARD QUALIDADE*/
+.card-qualidade{
+    display: flex;
+    justify-content: center;
+
+}
+.cards img{
+    padding: 15px;
+    width: 65px;
+    display: flex;
+    margin: auto;
+
+}
+.card001{
+    margin-bottom: 35px;
+}
+.cards {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 270px;
+    margin: 20px;
+
+}
+.cards h2{
+    font-size: 35px;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+.cards p{
+    padding:10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.meio-qualidade a{
+    font-size: 40px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    width: 200px;
+    border-radius: 20px;
+    padding: 6px;
+}
+.meio-qualidade a:hover{
+    background-color: rgba(121, 8, 8, 0.925);
+    transition: 0.3s;
+}
+
+/*PARTE DOS DISPOSITIVOS COMPATIVEIS*/
+.meio-dispositivos{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.copy-teste{
+    margin-top: 90px;
+    font-size: 23px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.compat-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+.div-01 h2{
+    margin-bottom: 30px;
+
+}
+.div-01 ul{
+    font-size: 20px;
+    margin-left: 35px;
+
+}
+.compat-img img{
+    width: 620px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.dispos-ul li{
+    list-style-type: none;
+    margin-top: 1px;
+}
+.dispos-ul li::before{
+    content: "\2713"; 
+    color: green; 
+    font-size: 1em; 
+    margin-right: 10px;
+}
+
+/*PARTE DA TV BOX*/
+.meio-tvbox{
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #0a1033;
+}
+.tvbox img{
+    width: 460px;
+    margin-top: -100px;
+    margin-left: 160px;
+}
+.meio-tvbox a{
+    position: absolute;
+    font-size: 25px;
+    display: flex;
+    margin-left: 300px;
+    background-color:  rebeccapurple;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.meio-tvbox a:hover{
+    background-color: rgba(121, 8, 8, 0.925);
+    transition: 0.6s;
+}
+.copy-tvbox{
+    padding: 100px;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: rebeccapurple;
+}
+.copy-tvbox p{
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    color: #0a1033;
+
+}
+.copy-tvbox ul > li{
+    font-size: 20px;
+    margin: 10px;
+    color: #0a1033;
+    margin-left: 25px;
+}
+
+/*PARTE DOS PREÇOS E PROMOÇOES*/
+.preco-copy{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.preco-copy p{
+    margin-top: 10px;
+    font-size: 35px;
+    color: rgb(184, 16, 16);
+    font-weight: bold;
+}
+.card-pre{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*PARTE DOS CARDS DE PREÇO*/
+.card-plano-play img{
+    width: 65px;
+}
+.card-plano-play{
+    width: 300px;
+    height: auto;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: white;
+    border: 3px solid rgb(197, 8, 8);
+    margin-top: 20px;
+    margin: 35px;
+}
+.card-plano-play h3{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.card-plano-play p {
+    margin-top: -23px;
+    text-align: center;
+    font-size:26px;
+    font-family: 'Roboto', sans-serif;
+}
+.card-ul{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.card-ul li{
+    list-style-type: none;
+    margin-top: 4px;
+}
+.card-ul li::before{
+    content: "\2713"; 
+    color: green; 
+    font-size: 1.2em; 
+    margin-right: 10px;
+}
+.div-p p {
+    margin-top: 20px;
+    background-color: #0a1033; 
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-plano-play h4{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom: 120px;
+}
+.card-plano-play > a{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -118px;
+
+}
+.contratar{
+    background-color: green;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    border-radius: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.contratar:hover{
+    background-color: #0a1033;
+    transition: .6s;
+}
+.cor{
+    color: #bb0909;
+    font-style: italic;
+}
+
+/*PARTE DO FIM QUE TEM AS IMAGENS DOS CONTEUDOS AVATAR*/
+.final-nos{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white
+}
+.nos-h2 h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 37px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.copy-final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+.copy-nos p{
+    padding: 20px;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    margin-bottom: -50px;
+}
+.nos-img img{
+    width: 730px;
+    margin-right: 50px;
+    margin-bottom: -50px;
+}
+.segura{
+    width: 150px;
+
+}
+
+/*PARTE DO FOOTER, RODA PE DO SITE*/
+footer{
+    margin-top: 180px;
+    padding: 100px;
+    background-color:#3538A1;
+    border-top:5px solid #df0b0bcc;
+    text-align: center;
+    padding: 0%; 
+}
+footer img{
+    width: 220px;
+    padding: 0%;
+}
+.footer1{
+font-family: 'Courier New', Courier, monospace;
+font-size: 15px;
+margin-left: 25px;
+padding-bottom: 10px;
+color: white;
+}
+::-webkit-scrollbar{
+   width: 6px;
+
+}
+::-webkit-scrollbar-track{
+background-color: #3538A1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #df0b0bcc;
+
+}

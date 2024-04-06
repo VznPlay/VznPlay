@@ -1,0 +1,254 @@
+@media (max-width:420px) {
+body{ 
+    overflow-x: hidden; 
+    } 
+/*PARTE DA LOGO E DO VOLTAR */
+.nav-geral{
+        position: relative;
+        width: 100vw;
+}
+.nav-logo img{
+        width: 140px;
+        margin-top: 10px;
+        margin-left: 20px;
+}
+.nav-ul a{
+        display: none;
+}
+.nav-ul .aparecer{
+        display: block;
+}
+.nav-voltar{
+    margin-left: 0px;
+}
+.nav-geral a:hover{
+        border-top: none;
+}
+.aparecer li {
+        font-size: 17px;
+        margin-left: -10px;
+        margin-top: 20px;
+    
+}
+.nav-ul{
+        margin-right: 0px;
+}
+.nav-voltar{
+        margin-top: 30px;
+    margin-left: 40px;
+    font-size: 15px;
+    height: 16px;
+}
+
+/*PARTE DA IMAGEM DOS JOVENS + COPY*/
+.meio-canais{
+    width: 360px;
+    display: block;
+}
+.copy-canais{
+    margin-left: 2px;
+    padding: 0px;
+}
+.copy-canais h1{
+    margin-top: 10px;
+    font-size: 27px;
+    
+}
+br{
+    display: none;
+}
+.quebra{
+    display: block;
+}
+.copy-canais p{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 12.5px;
+}
+.copy-canais a{
+    margin-top: 20px;
+    font-size: 13px;
+    display: flex;
+    margin-left: 1px;
+}
+.copy-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+/*CARDS DA PARTE BRANCA QUALIDADE*/
+.meio-qualidade{
+    height: 1430px;
+}
+.card001 h2{
+    font-size: 30px;
+}
+.card001 p{
+    margin-top: -15px;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.card-qualidade{
+    display: block;
+}
+.cards{
+    width: 240px;
+    margin: 25px auto;
+
+}
+.cards img{
+    width: 45px;
+}
+.cards h2{
+    font-size: 22px;
+}
+.cards p{
+    font-size: 15px;
+}
+.meio-qualidade a{
+    font-size:25px;
+    width: 140px;
+}
+
+/*PARTE QUE DIZ EM QUAL DISPOSITIVOS PEGA*/
+.meio-dispositivos{
+    display: block;
+}
+.copy-teste h2{
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+.copy-teste p{
+    padding: 0px 50px 0px 50px;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+.div-01 br{
+    display: block;
+}
+.div-01 h2{
+    font-size: 26px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.dispos-ul{
+    margin-bottom: 50px;
+}
+.dispos-ul li{
+    margin-left: 0px;
+    font-size: 16px;
+}
+.div-02 img{
+display: none;
+}
+
+/*PARTE DA TV BOX*/
+.tvbox img{
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 270px;
+}
+.meio-tvbox{
+    display: block;
+}
+.copy-tvbox{
+    padding: 10px 0px 100px 15px;
+}
+.copy-tvbox h2{
+    font-size: 35px;
+}
+.copy-tvbox p{
+    font-size: 16px;
+    margin-bottom: 35px;
+    margin-left: 11px;
+}
+.copy-tvbox ul > li{
+    font-size: 14.5px;
+}
+.tvbox a{
+    display: flex;
+    font-size: 16px;
+    margin-top: 420px;
+    margin-left: 35px;
+}
+
+/*PARTE DOS CARDS DE PREÇO*/
+.preco-copy{
+    font-size: 26px;
+    margin: 20px 3px;
+}
+.preco-copy p{
+    font-size: 18px;
+    margin: 0px 5px 50px 5px;
+}
+.card-pre{
+    display: block;
+    margin-left: 1px;
+}
+.card-plano-play{
+    margin-left: 20px;
+}
+/*PARTE FINAL SOBRE NOS*/
+.final-nos {
+    width: 382px;
+}
+.copy-nos {
+    padding: 0px;
+    margin: 0px;
+
+}
+.nos-h2 h2 {
+    font-size: 30px;
+    margin: 60px 10px 290px 10px;
+}
+.copy-final {
+    display: block;
+}
+.nos-img{
+    border: 2px solid #0a1033;;
+    width: 10px;
+
+}
+.nos-img img{
+    display: flex;
+    width: 370px;
+    margin-top: -500px;
+    margin-left: -28px;
+}
+.copy-nos p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: -80px;
+}
+.copy-nos br{
+    display: block;
+}
+
+/*FOOTER RODA PE*/
+
+#ooft img{
+    width: 200px;
+    padding: 0%;
+}
+#marra01 {
+    width: 100px !important;
+}
+.footer1{
+font-family: 'Courier New', Courier, monospace;
+font-size: 12px;
+margin-left: 2px;
+padding-bottom: 10px;
+color: white;
+}
+
+
+
+}

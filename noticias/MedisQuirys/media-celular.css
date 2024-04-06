@@ -1,0 +1,49 @@
+@media (max-width:420px) {
+
+.nav-bar img{
+    margin-top: 0px;
+    margin-left:90px;
+    width: 240px;
+}
+#Home-todos{
+    display: none;
+}
+.icones-princ{
+    display: flex;
+    margin-top: -20px;
+    margin-left: -10px;
+    background-color: rgba(255, 255, 255, 0.363);
+    
+}
+.icones-princ a:hover{
+background-color: aliceblue;
+border-radius: 5px;
+transition: 0.7s;
+}
+
+/* HEARDER PARTI BRANCA PARA BAIXO*/
+.meio-branco{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 2px;
+    border-radius: 8px;
+    width: 348px;
+    height: 880px;
+}
+#nav-anc{
+    display: none;
+}
+.shein{
+    margin-top: -2px;
+}
+.footer-fim{
+margin-left: 25px;
+padding-bottom: 6px;
+}
+#onnef-fut{
+    margin-left: 50px;
+}
+
+}

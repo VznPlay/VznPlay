@@ -1,0 +1,120 @@
+@media (min-width: 468px) and (max-width:1024px) {
+
+
+.site-princ{
+display: none;
+}
+.nav-bar a{
+    font-size: 13px;
+    margin-left: 66px;
+}
+.nav-bar img{
+    width: 180px;
+    margin-top: 130px;
+}
+#nav-anc{
+    font-size: 16px;
+    display: block;
+    margin-top: 70px;
+    margin-left: 34px;
+    width: 100px;
+    padding: 10px;
+}
+.nav-bar span{
+    display: none;
+}
+.icones-princ{
+margin-top: -268px;
+}
+.icones-princ img{
+    margin-left: 30px;
+    margin-top: -1px;
+    width: 33px;
+
+}
+.meio-branco{
+    margin-top: -350px;
+    margin-left: 196px;
+    width: 750px;
+    height: 630px;
+}
+.shein{
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-left: 95px;
+}
+#aliex{
+    margin-left: -663px;
+    margin-top: 350px;
+}
+#none{
+    display: none;
+}
+.mercado{
+    display: block;
+    border: 2px solid black;
+    height: 220px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 27px;
+    margin-top:350px;
+    margin-left: 100px;
+}
+.mercado img{
+    padding: 5px;
+    margin-bottom: -38px;
+    margin-top: -40px;
+    width: 160px;
+}
+.mercado  h2{
+ margin-top: 30px;
+}
+.mercado p{
+    font-size: 19px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mercado a{
+font-size: 14px;
+background-color:rgba(173, 6, 6, 0.795);
+padding: 11px;
+border-radius: 10px;
+margin-left: 22px;
+margin-right: 22px;
+font-family: 'Courier New', Courier, monospace;
+text-decoration: none;
+color: whitesmoke;
+}
+.mercado a:hover{
+    background-color: #0a1033;
+    transition: 0.5s;
+}
+
+.footer-fim{
+    margin-left: 620px;
+    padding-bottom: 5px;
+}
+.ultima-img{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

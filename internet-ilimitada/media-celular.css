@@ -1,0 +1,283 @@
+@media (max-width:420px) {
+body {
+    overflow-x: hidden; 
+}
+/*PARTE DA LOGO E DO VOLTAR */
+.nav-geral{
+    position: relative;
+    width: 100vw;
+}
+.nav-logo img{
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.nav-ul a{
+    display: none;
+}
+.nav-ul .aparecer{
+    display: block;
+}
+.nav-voltar{
+margin-left: 0px;
+}
+.nav-geral a:hover{
+    border-top: none;
+}
+.aparecer li {
+    font-size: 17px;
+    margin-left: -10px;
+    margin-top: 20px;
+
+}
+.nav-ul{
+    margin-right: 0px;
+}
+.nav-voltar{
+    margin-top: 30px;
+margin-left: 40px;
+font-size: 15px;
+height: 16px;
+}
+
+/* PARET DA COPY E DA IMAGEM DA MULHER */
+.copy{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.texto-copy{
+margin: 20px;
+}
+.texto-copy h1{
+    font-size: 30px;
+
+}
+.br{
+    display: none;
+}
+.texto-copy p{
+    margin-top: 12px;
+    font-size: 13px;
+    color: rgb(211, 204, 204);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+.imagem-mulher img{
+    display: none;
+
+}
+/* PARETE DOS CARDS DE PREÇOS - PLANO PLAY */
+.card-plano-play{
+    width: 250px;
+    height: 510px;
+    margin-top: 8px;
+    margin-left: 35px;
+}
+.card-plano-play h3{
+    font-size: 21px;
+}
+.card-plano-play p {
+    font-size:14px;
+}
+.card-ul{
+    margin-top: 40px;
+    font-size: 16px;
+}
+.div-p p {
+    margin-top: 35px;
+    font-size: 21px;
+}
+.card-plano-play h4{
+    font-size: 15px;
+}
+.valor{
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+.contratar{
+    border-radius: 40px;
+    margin-left: 13px;
+}
+
+/* PARETE DOS CARDS DE PREÇOS - PLANO GOLD */
+.card-plano-gold{
+    width: 250px;
+    height: 510px;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.card-plano-gold h3{
+    font-size: 20px;
+}
+.card-plano-gold p {
+    font-size:14px;
+}
+.card-ul-g{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.div-p p {
+    margin-top: 35px;
+    font-size: 21px;
+}
+.card-plano-gold h4{
+    font-size: 15px;
+}
+.valor-g{
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+.contratar{
+    border-radius: 40px;
+    margin-left: 13px;
+}
+
+/* PARETE DOS CARDS DE PREÇOS - PLANO PRO */
+.card-plano-pro{
+    width: 250px;
+    height: 510px;
+    margin-top: 25px;
+    margin-left: 35px;
+
+}
+.card-plano-pro h3{
+    font-size: 21px;
+}
+.card-plano-pro p {
+    font-size:14px;
+}
+.card-ul-p{
+    margin-top: -1px;
+    font-size: 16px;
+}
+.div-p p {
+    margin-top: 35px;
+    font-size: 21px;
+}
+.card-plano-pro h4{
+    font-size: 15px;
+}
+.valor-p{
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+.contratar{
+    border-radius: 40px;
+    margin-left: 13px;
+}
+
+/* PARTE DA MULHER APONTANDOO CELULAR COM A IMAGEM DO APP NA TELA*/
+.redes{
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 650px;
+    margin-left:2px;
+    margin-right: 100px;
+    width: 378px;
+}
+.redes-mulher img{
+    width: 445px;
+    margin-left: -50px;
+    margin-top: 565px;
+    margin-bottom: -76px;
+}
+.redes-copy{
+    padding: 15px;
+}
+.redes-copy h2{
+    text-align: center;
+    margin-top: -840px;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+.redes-copy h3{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.redes-copy br{
+    display: none;
+}
+.redes-copy img{
+    margin-top: 17px;
+    width: 180px;
+    margin-left: 175px;
+    margin-bottom: 15px;
+}
+.redes-copy p{
+    font-size: 15px;
+}
+.redes-comprar{
+    margin-top: 25px;
+    font-size: 17px;
+}
+.redes-copy img{
+    width: 160px;
+    margin-top: 30px;
+}
+
+/*ULTIMO CARD ANTES DO FOOTER*/
+.card-fim{
+    margin-top: 1600px;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 15px;
+    font-size: 23px;
+}
+.card-fim p{
+    margin-top: 14px;
+    font-size: 19px;
+    margin-bottom: 100px;
+}
+.quebrar{
+    margin-top: -40px;
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+    margin-left: 30px;
+}
+.card-fim-1{
+    font-size: 20px;
+    margin-top: 35px;
+}
+#tamanho1{
+    font-size: 18px;
+}
+.botao-final{
+
+    margin-left: -80px;
+}
+.img-fim{
+    margin-left: 20px;
+    margin-top: -1455px;
+    
+    
+}
+.img-fim img{
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+    width: 160px;
+    margin-top: 165px;
+
+}
+.footer1{
+    font-size: 12px;
+    margin-left: 0px;
+}
+#ooft img{
+    width: 170px;
+}
+
+
+
+
+
+
+
+
+
+
+}

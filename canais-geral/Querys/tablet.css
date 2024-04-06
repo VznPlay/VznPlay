@@ -1,0 +1,153 @@
+@media (min-width: 468px) and (max-width:1024px){
+
+    br{
+        display: none;
+    }
+/*PARTE DA LOGO E DO VOLTAR */
+.nav-logo > img{
+    margin-left: 50px;
+}
+.nav-ul{
+    margin-right: 0px;
+}
+.nav-ul li{
+    font-size: 20px;
+}
+.nav-voltar{
+margin-left: 60px
+}
+
+/*PARTE DA IMAGEM DOS JOVENS + COPY*/
+.copy-canais h1{
+    margin-top: 135px;
+    font-size: 33px;
+}
+.quebra{
+    display: block;
+}
+.copy-canais p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.copy-canais a{
+    margin-top: 25px;
+    font-size: 15px;
+}
+.copy-img img{
+    width: 430px;
+    margin-right: 30px;
+    margin-top: 190px;
+}
+
+/*CARDS DA PARTE BRANCA QUALIDADE*/
+.meio-qualidade{
+    height: 600px;
+}
+.card001 h2{
+    font-size: 30px;
+}
+.card001 p{
+    font-size: 20px;
+}
+.cards{
+    margin: 12px;
+    padding: -10px;
+}
+.cards img{
+    width: 55px;
+}
+.cards h2{
+    font-size: 28px;
+}
+.cards p{
+    font-size: 17px;
+}
+.meio-qualidade a{
+    font-size:28px;
+    width: 140px;
+}
+
+/*PARTE QUE DIZ EM QUAL DISPOSITIVOS PEGA*/
+.copy-teste h2{
+    font-size: 30px;
+    margin-bottom: 4px;
+}
+.div-01 h2{
+    font-size: 30px;
+    margin-left: 70px;
+}
+.dispos-ul li{
+    margin-left: 50px;
+}
+.div-02 img{
+    width: 550px;
+    margin-right: 80px;
+}
+
+/*PARTE DA TV BOX*/
+.tvbox img{
+    width: 333px;
+    margin-left: 50px;
+}
+.tvbox a{
+    font-size: 18px;
+margin-left: 150px;
+}
+.copy-tvbox{
+    padding: 20px;
+    margin-left: 50px;
+}
+.copy-tvbox h2{
+    font-size: 35px;
+}
+.copy-tvbox p{
+    font-size: 18px;
+}
+.copy-tvbox ul > li{
+    font-size: 16px;
+}
+
+/*PARTE DOS CARDS DE PREÇO*/
+.card-plano-play{
+    margin: 10px;
+}
+.card-plano-play h3{
+    font-size: 38px;
+}
+.card-plano-play p{
+    font-size: 23px;
+}
+.card-ul {
+    margin-bottom: 50px;
+}
+.card-ul li {
+    font-size: 15px;
+}
+.div-p p{
+    font-size: 20px;
+}
+
+/*PARTE FINAL SOBRE NOS*/
+.copy-nos {
+    padding: 0px;
+    margin: 0px;
+
+}
+.copy-nos p{
+    font-size: 16px;
+    margin-bottom: -140px;
+}
+.nos-img img{
+    width: 540px;
+    margin-right: -20px;
+    margin-bottom: -140px;
+}
+
+
+
+
+
+
+
+
+}

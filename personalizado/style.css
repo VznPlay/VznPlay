@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/*COMEÇO DA TAG NAV, COMEÇO DO SITE */
+.topo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding-bottom: 19px;
+}
+.logo{
+flex:20px;
+margin-left: 30px;
+padding:2px;
+}
+.img-logo{
+    width: 225px;
+    margin-top: -100px;
+    margin-bottom: -70px;
+    margin-left: 70px;
+    padding-bottom: 17px;
+}
+.fale-conosco{
+    flex:80px;
+    margin-right: 50px;
+    text-align: right;
+    margin-top: 22px;
+}
+.fale-conosco a{
+    text-decoration: none;
+    color: #593caa;
+    padding: 7px 15px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fale-conosco :hover{
+    color: #593caa;
+    border-top: solid 2px #593caa;
+}
+#botao{
+    background-color:#3538A1;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 9px;
+    margin-right: 100px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#botao:hover{
+    background-color: rgba(173, 6, 6, 0.795);
+    border: none;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.5s;
+}
+#botao2{
+    display: none;
+}
+/*COMEÇO DA TAG HEADER, MEIO DO SITE*/
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 115px;
+}
+.texto1{
+flex:40%;
+margin-left: 9%;
+font-weight: 10px;
+margin-top: -60px;
+
+}
+.br-mala{
+    display: none;
+}
+.texto1 a{
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+    background-color: #3538A1;
+    color: white;
+    padding: 15px;
+    border-radius: 7px;
+    width: 150px;
+    margin-top: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+}
+.texto1 a:hover{
+transition: 0.5s;
+background-color: brown;
+color: rgb(255, 249, 249);
+animation-name: pulsar;
+animation-duration: 0.5s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate; 
+}
+@keyframes pulsar{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+h1{
+        letter-spacing:10px;
+        color:#3538A1;
+        padding-top: 20px;
+        font-size: 27px;
+        margin-left: 10px;
+        font-style: italic;
+}
+h2{
+        font-weight: bold;
+        font-size: 64px;
+        color: #3538A1;
+        padding: 0%;
+        font-style: italic;
+        
+}
+p{
+        font-size:17px;
+        margin-top: 8px;
+        font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+strong{
+    color: red;
+}
+.img-chamada{
+    flex: 40%;
+    margin-right: 9%;
+}
+.img-chamada img{
+    width:571px;
+}
+
+/*COMEÇO DA SECTION, PARTE DA COPY*/
+section{
+
+display: inline-block;
+margin-top: 50px;
+margin-left: 5%;
+margin-right: 5%;
+width: 90%;
+
+}
+section h2{
+    margin-top: 85px;
+    font-size: 40px;
+    text-align: center;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+.card-princ{
+    display: inline-block;
+    margin-top: 4%;
+}
+.card{
+    display: inline-block;
+    width: 25%;
+    padding: 15px;
+    border:1px solid   #df0b0bcc;
+    margin:1.3%;
+    margin-left: 175px;
+    border-radius: 13px;
+
+}
+.card img{
+    width: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+    margin-left:34%;
+    padding-left: 16px;
+    padding-bottom: 40px;
+}
+.card h3{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.card p{
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#card1 p{
+    padding-top: 21px;
+}
+#card1 img{
+    padding-top: 25px;
+}
+#card2 img{
+padding-bottom: 0px;
+padding-bottom: 20px;
+}
+#card3 img{
+    margin-bottom: -20px;
+}
+#card3 {
+    margin-top: 45px;
+}
+
+/*PARTE DO FOOTER, RODA PE DO SITE*/
+footer{
+    margin-top: 50px;
+    padding: 100px;
+    background-color:#3538A1;
+    border-top:5px solid #df0b0bcc;
+    text-align: center;
+    padding: 0%; 
+}
+footer img{
+    width: 230px;
+    padding: 0%;
+}
+.footer1{
+font-family: 'Courier New', Courier, monospace;
+font-size: 15px;
+margin-left: 25px;
+padding-bottom: 10px;
+color: white;
+}
+.vzn{
+    color: white
+}
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 60px;
+}
+::-webkit-scrollbar{
+   width: 6px;
+
+}
+::-webkit-scrollbar-track{
+background-color: #3538A1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #df0b0bcc;
+
+}

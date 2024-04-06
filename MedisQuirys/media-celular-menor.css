@@ -1,0 +1,365 @@
+@media (max-width:375px) {
+
+.nav-bar img{
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 240px;
+}
+#Home-todos{
+    display: none;
+}
+.icones-princ{
+    display: flex;
+    margin-top: -20px;
+    background-color: rgba(255, 255, 255, 0.363);
+    
+}
+.icones-princ a:hover{
+background-color: aliceblue;
+border-radius: 5px;
+transition: 0.7s;
+}
+
+/* HEARDER PARTI BRANCA PARA BAIXO*/
+.meio-branco{
+    margin-top: 5px;
+    margin-left: 2px;
+    border-radius: 8px;
+    width: 316.4px;
+    height: 850px;
+    box-shadow: none;
+}
+.meio-branco h1{
+    position: inherit;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: -2px;
+
+}
+.meio-anc{
+    display: none;
+}
+
+/* PARTE DOS CANAIS DIV COMPLETA*/
+.meio-div1{
+    position: absolute;
+    margin-bottom: 280px;
+    margin-left: -16px;
+    width: 346px;
+    height: 160px;
+}
+.meio-div1 .img{
+    margin-top: 10px;
+    width: 126px;
+    box-shadow: none;
+}
+.meio-div1 .meio-p{
+    font-size: 12px;
+    margin-left: 120px;
+    margin-top: -130px;
+}
+.br{
+    display: none;
+}
+#sbt{
+    width: 14px;
+    margin-left: 130px;
+    margin-top: -125px;
+}
+#band{
+    width: 16px;
+    margin-left: 152px;
+    margin-top: -125px;
+}
+#redetv{
+   display: none;
+}
+#record{
+    width: 16px;
+    margin-left: 175px;
+    margin-top: -124px;
+}
+#agro{
+    width: 23px;
+    margin-left: 195px;
+    margin-top: -123px;
+}
+#lixo{
+    width: 15px;
+    margin-left: 222px;
+    margin-top: -124px;
+}
+#ufc{
+    width: 19px;
+    margin-left: 242px;
+    margin-top: -120px;
+}
+#telecine{
+    margin-left: 269px;
+    margin-top: -120px;
+}
+#jpan{
+    margin-left: 320px;
+    margin-top: -125px;
+}
+#star{
+    width: 23px;
+    margin-left: 132px;
+    margin-top: -90px;
+}
+#hbomax{
+    width: 34px;
+    margin-left: 159px;
+    margin-top: -90px;
+}
+#paramount{
+    margin-left: 193px;
+    margin-top: -103px;
+}
+#cartoon{
+    margin-left: 222px;
+    margin-top: -97px;
+}
+#espn{
+    margin-left: 253px;
+    margin-top: -96px;
+}
+#premiere{
+    margin-left: 293px;
+    margin-top: -91px;
+
+}
+#disnay{
+    margin-left: 135px;
+    margin-top: -60px;
+
+}
+#netflix{
+    margin-left: 295px;
+    margin-top: -55px;
+}
+#combate{
+    display: none;
+}
+#meio-botao{
+    font-size: 13px;
+    margin-left: -185px;
+    margin-top: 144px;
+    text-align: center;
+    height: 20px;
+    width: 80px;
+    padding-top: 10px;
+}
+#botao-reserva {
+    display: block;
+    position: absolute;
+    margin-left: 188px;
+    margin-top: 120px;
+    background-color: rgba(173, 6, 6, 0.795);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    width: 85px;
+    height: 22px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px black;
+}
+#botao-reserva:hover{
+    transition: 0.6s;
+    background-color: #0a1033;
+}
+
+/* PARTE DO SITE PERSONALIZADO */
+.meio-selection2{
+display: none;
+}
+.site-princ{
+    display: block;
+    margin-left: -16px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 346px;
+    height: 160px;
+    margin-bottom: 408px;
+}
+.site-div img{
+    margin-left: -5px;
+    margin-top: -15px;
+    width: 165px;
+
+}
+.meio-p{
+    margin-left: 168px;
+    font-size: 12px;
+    margin-top: -140px;
+}
+#meio-botao2{
+    position: absolute;
+    height: 14px;
+    width: 70px;
+    font-size: 12px;
+    padding: 9px;
+    margin-top: -93px;
+    margin-left: 204px;
+}
+
+/* PARTE DOS PRODUTOS AFILIADO / shein*/
+.meio-shein{
+    width: 169px;
+    margin-left: -16px;
+    margin-top: -282px;
+}
+.meio-shein img{
+    width: 78px;
+}
+.meio-pshe{
+    margin-top: -50px;
+    margin-left: 94px;
+    font-size: 13px;
+}
+#botao-shein{
+    margin-top: -25px;
+    margin-left: 4px;
+    font-size: 9px;
+}
+
+/*DIV DA INTERNET ILIMITADA*/
+.meio-div2{
+    position: absolute;
+    margin-top: 382px;
+    margin-left: -16px;
+    width: 128px;
+    height: 100px;
+}
+.meio-div2 img{
+    width: 80px;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    margin-left: -23px;
+}
+.meio-p1{
+    margin-top: -126px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+#meio-botao1{
+    position: absolute;
+    margin-left: 63px;
+}
+
+/*DIV DOS PRODUTOS INTERNACIONAIS*/
+.meio-inter{
+    margin-top: -396px;
+    margin-left: 159.5px;
+    width: 131px;
+    height: 100px;
+}
+.meio-inter img{
+    width: 110px;
+    height: 105px;
+    margin-top: -7px;
+    margin-left: -43px;
+}
+.meio-pinter{
+    margin-top: -95px;
+    margin-left: 50px;
+    font-size: 12px;
+}
+#botao-inter{
+    position: absolute;
+    margin-left: 54px;
+    font-size: 10px;
+    margin-top: 17px;
+}
+
+/*DIV SHOPEE*/
+.meio-shopee{
+    position: absolute;
+    width: 170px;
+    margin-left: 161px;
+    margin-top: -104px;
+}
+.meio-shopee img{
+    width: 85px;
+    margin-top: 12px;
+    margin-left: -6px;
+}
+.meio-psho{
+    margin-top: -62px;
+    margin-left: 95px;
+    font-size: 13px;
+}
+#botao-shopee{
+    margin-top: -24px;
+    margin-left: 4px;
+    font-size: 9px;
+}
+
+/*DIV MERCADO LIVRE*/
+.meio-merliv{
+    width: 169px;
+    margin-left: -16px;
+
+}
+.meio-merliv img{
+    width: 80px;
+    margin-top: 8px;
+    margin-left: -4px;
+}
+.meio-plivre{
+    margin-top: -55px;
+    margin-left: 94px;
+    font-size: 13px;
+}
+#botao-merliv{
+    margin-top: -25px;
+    margin-left: 3px;
+    font-size: 9px;
+}
+
+/*DIV ALIEXPRESS*/
+.meio-aliex{
+    position: absolute;
+    width: 170px;
+    margin-left: 161px;
+    margin-top: -105px;
+}
+.meio-aliex img{
+    width: 100px;
+    margin-top: 19px;
+    margin-bottom: 45px;
+}
+.meio-paliex{
+    margin-top: -72px;
+    margin-left: 93px;
+    font-size: 12px;
+}
+#botao-aliex{
+    margin-top: -13px;
+    margin-left: 3px;
+    font-size: 9px;
+}
+#nav-anc{
+    position: absolute;
+    margin-top: 840px;
+    margin-left: 210px;
+    font-size: 17px;
+}
+.ultima-img{
+position: absolute;
+display: block;
+}
+.ultima-img img{
+    margin-top: 18px;
+    width: 160px;
+    margin-left: -11px;
+}
+.footer-fim{
+margin-left: 10px;
+padding-bottom: 6px;
+}
+
+}

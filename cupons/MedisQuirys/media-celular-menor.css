@@ -1,0 +1,35 @@
+@media (max-width:375px) {
+    body {
+        overflow-x: hidden; 
+    }
+    .nav-bar img{
+        margin-top: 0px;
+        margin-left: 70px;
+        width: 240px;
+    }
+    
+    /* HEARDER PARTI BRANCA PARA BAIXO*/
+    .meio-branco{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 5px;
+        margin-left: 2px;
+        border-radius: 8px;
+        width: 316.4px;
+        height: 1100px;
+    }
+    #nav-anc{
+        display: none;
+    }
+    .shein{
+    margin-left: 70px;
+    margin-top: 10px;
+    }
+    
+    .footer-fim{
+    margin-left: 10px;
+    padding-bottom: 6px;
+    }
+    
+    }

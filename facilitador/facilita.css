@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #0a1033;
+
+}
+/* PARTE DA IMAGEM E DO BOTAO VOLTAR */
+.nav-geral{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.966);
+    height: 78px;
+    width: 100vw;
+    z-index: 1;
+}
+.nav-logo img{
+    width: 220px;
+    margin-left: 100px;
+    margin-top: -12px;
+}
+.nav-ul{
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 17px;
+    display: flex;
+}
+.nav-ul a{
+    text-decoration: none;
+}
+.nav-ul a:hover{
+    border-top: 2px solid black;
+}
+.nav-ul li{
+    font-size: 20px;
+    margin: 15px;
+    color: black;
+    font-weight: bold;
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-voltar{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 110px;
+    font-size: 23px;
+    margin-top: 21px;
+    height: 27px;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #0a1033;
+
+}
+.nav-voltar a{
+    text-decoration: none;
+        color: white;
+}
+.nav-voltar:hover{
+    background-color: rgba(173, 6, 6, 0.795);
+    transition: 0.2s;
+}
+
+/*PARTE DA COPY PRIMEIRA*/
+.ativa-apps {
+    text-align: center;
+    color: white;
+    padding: 60px 20px 0px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.ativa-apps p {
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 28px;
+}
+.ativa-apps h3{
+    font-size: 26px;
+    margin-top: 29px;
+    color: yellow;
+    margin-bottom: 150px;
+}
+.ativar-copy a{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.ativar-copy a:hover{
+    background-color: rgba(150, 18, 18, 0.795);
+}
+.img-wapp{
+    margin-top: -50px;
+    display: flex;
+    margin-left: 300px;
+}
+.img-wapp img{
+    width: 90px;
+    margin-left: 180px;
+}
+
+/*APLICATIVOS*/
+.linha{
+width: 100vw;
+height: 2px;
+background-color: rgb(245, 245, 245);
+margin-top: 130px;
+}
+.copy-preto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 110px;
+    background-color: black;
+    padding: 16px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.copy-geral-img > img{
+    width: 170px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PARTE DO FOOTER, RODA PE DO SITE*/
+footer{
+    margin-top: 180px;
+    padding: 100px;
+    background-color:#3538A1;
+    border-top:5px solid #df0b0bcc;
+    text-align: center;
+    padding: 0%; 
+}
+footer img{
+    width: 220px;
+    padding: 0%;
+}
+.footer1{
+font-family: 'Courier New', Courier, monospace;
+font-size: 15px;
+margin-left: 25px;
+padding-bottom: 10px;
+color: white;
+}
+::-webkit-scrollbar{
+   width: 6px;
+
+}
+::-webkit-scrollbar-track{
+background-color: #3538A1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #df0b0bcc;
+
+}

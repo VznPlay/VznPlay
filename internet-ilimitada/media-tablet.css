@@ -1,0 +1,231 @@
+@media (min-width: 468px) and (max-width:1024px) {
+body {
+    overflow-x: hidden; 
+}
+/*PARTE DA LOGO E DO VOLTAR */
+.nav-logo > img{
+    margin-left: 50px;
+}
+.nav-ul{
+    margin-right: 0px;
+}
+.nav-voltar{
+margin-left: 60px
+}
+
+/*PARTE DA MULHER DE CAMISA BRANCA*/
+.copy{
+    display: flex;
+}
+.texto-copy{
+margin-left: 55px;
+
+}
+.texto-copy h1{
+    font-size: 30px;
+
+}
+.texto-copy p{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.imagem-mulher img{
+    width: 650px;
+    margin-right: -100px;
+    margin-top: 70px;
+}
+
+/* PARETE DOS CARDS DE PREÇOS - PLANO PLAY */
+.card-plano-play{
+    width: 250px;
+    height: 510px;
+    margin-top: -50px;
+    margin-left: 22px;
+}
+.card-plano-play h3{
+    font-size: 21px;
+}
+.card-plano-play p {
+    font-size:14px;
+}
+.card-ul{
+    margin-top: 40px;
+    font-size: 16px;
+}
+.div-p p {
+    margin-top: 35px;
+    font-size: 21px;
+}
+.card-plano-play h4{
+    font-size: 15px;
+}
+.valor{
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+.contratar{
+    border-radius: 40px;
+    margin-left: 13px;
+}
+
+/* PARETE DOS CARDS DE PREÇOS - PLANO GOLD */
+.card-plano-gold{
+    width: 250px;
+    height: 510px;
+    margin-top: -574px;
+    margin-left: 351px;
+}
+.card-plano-gold h3{
+    font-size: 20px;
+}
+.card-plano-gold p {
+    font-size:14px;
+}
+.card-ul-g{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.div-p p {
+    margin-top: 35px;
+    font-size: 21px;
+}
+.card-plano-gold h4{
+    font-size: 15px;
+}
+.valor-g{
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+.contratar{
+    border-radius: 40px;
+    margin-left: 13px;
+}
+
+/* PARETE DOS CARDS DE PREÇOS - PLANO PRO */
+.card-plano-pro{
+    width: 250px;
+    height: 510px;
+    margin-top: -574px;
+    margin-left: 681px;
+
+}
+.card-plano-pro h3{
+    font-size: 21px;
+}
+.card-plano-pro p {
+    font-size:14px;
+}
+.card-ul-p{
+    margin-top: -1px;
+    font-size: 16px;
+}
+.div-p p {
+    margin-top: 35px;
+    font-size: 21px;
+}
+.card-plano-pro h4{
+    font-size: 15px;
+}
+.valor-p{
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+.contratar{
+    border-radius: 40px;
+    margin-left: 13px;
+}
+
+/* PARTE DA MULHER APONTANDOO CELULAR COM A IMAGEM DO APP NA TELA*/
+.redes{
+    margin-left:20px;
+    margin-right: 20px;
+}
+.redes-mulher img{
+    width: 610px;
+    margin-left: -65px;
+    margin-top: 25px;
+}
+.redes-copy{
+    margin-left: -65px;
+    margin-top: 8px;
+}
+.redes-copy h2{
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+.redes-copy h3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.redes-copy img{
+    margin-top: 17px;
+    width: 180px;
+    margin-left: 175px;
+    margin-bottom: 15px;
+}
+.redes-comprar{
+    margin-top: 15px;
+}
+
+/*ULTIMO CARD ANTES DO FOOTER*/
+.card-fim{
+    color: white;
+    font-size: 21px;
+}
+.card-fim p{
+    font-size: 30px;
+}
+.quebrar{
+    margin-left: -100px;
+    margin-right: -80px;
+}
+.card-fim-1{
+    font-size: 16px;
+}
+#tamanho1{
+    font-size: 15px;
+}
+.botao-final{
+    margin-left: 350px;;
+}
+.img-fim{
+    margin-left: -10px;
+    margin-top: -420px;
+}
+.img-fim img{
+    width: 180px;
+    margin-left: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
