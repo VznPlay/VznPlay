@@ -5,7 +5,7 @@
 body{
     background-color: #0a1033;
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 
 }
 .copy-links{
@@ -191,7 +191,6 @@ body{
     border: 1px solid rgb(255, 255, 255);
 
 }
-
 .esquerda .direita, h4{
     position: absolute;
     margin-top: -59px;
@@ -482,7 +481,7 @@ height: 16px;
     border-radius: 10px;
     padding: 20px;
     padding-left: 300px;
-    padding-right: 160px;
+    padding-right: 140px;
 
 }
 
