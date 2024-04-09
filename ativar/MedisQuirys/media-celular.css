@@ -50,7 +50,13 @@ transition: 0.7s;
     
 }
 #botao{
+    margin-top: 25px;
     margin-left: 110px;
+}
+#facilitador{
+    position: absolute;
+    margin-left: 75px;
+    font-size: 15px;
 }
 
 

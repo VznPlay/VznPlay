@@ -4,11 +4,17 @@
 }
 body{
     background-color: #0a1033;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden; 
 
+}
+.copy-links{
+    display: none;
 }
 /* PARTE DA IMAGEM E DO BOTAO VOLTAR */
 .nav-geral{
     display: flex;
+    justify-content: center;
     background-color: rgba(255, 255, 255, 0.966);
     height: 78px;
     width: 100vw;
@@ -16,7 +22,7 @@ body{
 }
 .nav-logo img{
     width: 220px;
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: -12px;
 }
 .nav-ul{
@@ -42,7 +48,7 @@ body{
 .nav-voltar{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    margin-left: 110px;
+    margin-left: 90px;
     font-size: 23px;
     margin-top: 21px;
     height: 27px;
@@ -81,73 +87,175 @@ body{
 }
 .ativar-copy a{
     border-radius: 10px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    padding: 20px;
+    padding: 22px;
     padding-left: 300px;
     padding-right: 300px;
-}
-.ativar-copy a:hover{
-    background-color: rgba(150, 18, 18, 0.795);
 }
 .img-wapp{
     margin-top: -50px;
     display: flex;
-    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -180px;
 }
 .img-wapp img{
     width: 90px;
     margin-left: 180px;
 }
+.video-seta{
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -400px;
+    margin-top: -74px;
+}
+.video-seta video{
+    width: 130px;
+    margin-left: 400px
+}
 
 /*APLICATIVOS*/
 .linha{
-width: 100vw;
-height: 2px;
-background-color: rgb(245, 245, 245);
-margin-top: 130px;
-}
-.copy-preto {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-align: center;
+    border: 1px solid white;
     margin-top: 110px;
-    background-color: black;
-    padding: 16px;
-    border-radius: 10px;
-    color: white;
-    margin-left: 200px;
-    margin-right: 200px;
 }
-.copy-geral-img > img{
-    width: 170px;
+.copy-preto h2{
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 18px;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    border: 1px solid white;
+}
+.imagem-apps-celular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -180px;
+}
+.esquerda img{
+    width: 150px;
     display: block;
 }
+.direita img{
+    display: flex;
+    width: 150px;
+}
+.direita {
+    margin-top: -150px;
+    margin-left: 300px;
 
+}
+.nomes-apps{
+    display: flex;
+}
+.esquerda a{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 75px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    padding: 11px 10px 11px 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
 
+}
+.direita a{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 75px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    padding: 11px 10px 11px 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
 
+}
 
+.esquerda .direita, h4{
+    position: absolute;
+    margin-top: -59px;
+    margin-left: 88px;
+    color: rgb(251, 255, 0);
+    font-weight: bold;
+    padding: 11px 10px 11px 80px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
 
+}
+/*VIDEOS*/
+.video-seta-meio{
+    margin-top: -260px;
+    margin-left: 7px;
+    z-index: 10 !important;
+}
+.video-seta-meio video {
+    width: 60px;
+    height: 45px;
+    display: block;
+    margin-top: 105px;
 
+}
+.video-seta-meio2{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: -285px;
+    z-index: 10 !important;
+}
+.video-seta-meio2 video {
+    width: 60px;
+    height: 45px;
+    display: block;
+    margin-top: 105px;
 
+}
+.fim-site h2{
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    margin-top: 50px;
 
+}
+.fim-site h5{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.fim-site h3{
+    margin: 20px 70px 40px 70px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+span{
+    font-size: 33px;
+    margin: 0px 10px 60px 0px;
+    color: red;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 /*PARTE DO FOOTER, RODA PE DO SITE*/
 footer{
@@ -178,5 +286,403 @@ background-color: #3538A1;
 }
 ::-webkit-scrollbar-thumb{
     background-color: #df0b0bcc;
+
+}
+
+@media (min-width: 468px) and (max-width:1024px){
+    /*PARTE DA LOGO E DO VOLTAR */
+.nav-logo > img{
+    margin-left: 50px;
+}
+.nav-ul{
+    margin-right: 0px;
+    margin-top: 24px;
+    margin-left: 1px;
+}
+.nav-ul li{
+    font-size: 18px;
+}
+.nav-voltar{
+margin-left: 60px
+}
+.fim-site{
+    margin: 0px 70px;
+}
+.fim-site br{
+    display: none;
+}
+
+}
+
+@media (max-width:420px) {
+/*PARTE DA LOGO E DO VOLTAR */
+.nav-geral{
+    position: relative;
+    width: 100vw;
+}
+.nav-logo img{
+    width: 160px;
+    margin-top: 0px;
+    margin-left: -10px;
+}
+.nav-ul a{
+    display: none;
+}
+.nav-ul .aparecer{
+    display: block;
+} 
+.nav-geral a:hover{
+    border-top: none;
+}
+.aparecer li {
+display: none;
+
+}
+.nav-ul{
+    margin-right: 0px;
+}
+.nav-voltar{
+margin-top: 30px;
+margin-left: 40px;
+font-size: 16px;
+height: 16px;
+}
+
+/*PARTE DAS IMAGENS E DA SETA PARA BAIXO */
+.copy-links {
+    display: block;
+    position: absolute;
+    margin-top: 335px;
+    margin-left: 7px;
+}
+.copy-links a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px rgb(255, 255, 255);
+    padding: 9px;
+    border-radius: 7px;
+}
+.copy-links a:hover{
+    background-color: #9b0b0b;
+    transition: 0.5s;
+}
+
+/*PARTE DAS LINKS PARA CELULAR */
+.copy-preto h2{
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.linha{
+    margin-top: 70px;
+}
+
+/*IMAGEMS DOS APPS*/
+.imagem-apps-celular {
+    margin-left: -109px;
+}
+.esquerda img{
+    width: 60px;
+}
+.direita img{
+    width: 60px;
+}
+/*NOMES DO LADO DIREIRO E ESQUERDO*/
+
+.nomes-apps{
+    display: flex;
+}
+.esquerda {
+    margin-left: -5px;
+}
+.direita {
+    margin-top: -55px;
+    margin-left: 130px;
+
+}
+.esquerda a{
+    margin-top: -45px;
+    margin-left: 30px;
+    padding: 7px 8px 7px 35px;
+    border-radius: 7px;
+    font-size: 10px;
+}
+.direita a{
+    margin-top: -44px;
+    margin-left: 30px;
+    font-size: 10px;
+    padding: 7px 8px 7px 35px;
+    border-radius: 7px;
+}
+
+/*VIDEOS DAS SETAS PARA O LADO*/
+.video-seta {
+    margin-left: -210px;
+        overflow-x: hidden; 
+}
+.video-seta-meio2{
+    position: absolute;
+    margin-top: -33px;
+    margin-left: -134px;
+    z-index: 10 !important;
+}
+.video-seta-meio2 video {
+    width: 28px;
+    height: 28px;
+    display: block;
+    margin-top: 32px;
+    border-radius: 20px;
+    overflow-x: hidden; 
+
+}
+.video-seta-meio{ 
+    margin-left: 2px;
+    margin-top: -90px;
+    z-index: 10 !important;
+}
+.video-seta-meio video{
+    width: 28px;
+    height: 28px;
+    display: block;
+    margin-top: 32px;
+    border-radius: 20px;
+}
+.esquerda .direita, h4{
+    margin-top: -26px;
+    margin-left: -10px;
+    font-size: 8px;
+
+}
+/*PARTE DA COPY */
+.ativa-apps {
+    padding: 45px 5px 0px 5px;
+}
+.ativar-copy h1{
+    font-size: 23.5px;
+}
+.ativar-copy p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.ativar-copy h3{
+    font-size: 22px;
+}
+.ativar-copy a{
+    font-size: 24px;
+    margin-left: -162px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 160px;
+
+}
+
+/*PARTE DAS IMAGEM DO WHATSAAP + VIDEO DA SETA PARA BAIXO*/
+.img-wapp{
+    margin-left: -110px;
+}
+.img-wapp img{
+    width: 65px;
+    margin-top: 12px;
+    margin-left: 110px;
+    z-index: 10;
+}
+.video-seta {
+    margin-left: -175px;
+}
+.video-seta video{
+    margin-top: 17px;
+    margin-left: 170px;
+    width: 110px;
+}
+
+/*FINAL SITE*/
+.fim-site h2{
+    font-size: 16px;
+    margin: 10px 25px 0px 25px;
+
+}
+.fim-site h5{
+    font-size: 16px;
+    margin: 30px 40px 0px 40px;
+}
+.fim-site h3{
+    margin: 20px 25px -40px 25px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+span{
+    font-size: 25px;
+
+}
+.footer1{
+    font-size: 12px;
+    margin-left: -2px;
+}
+
+
+}
+
+@media (max-width:375px){
+
+/*PARTE DAS IMAGENS E DA SETA PARA BAIXO */
+.copy-links {
+    margin-top: 335px;
+    margin-left: 8px;
+}
+.copy-links a{
+    font-size: 13px;
+}
+
+
+/*PARTE DAS LINKS PARA CELULAR */
+.copy-preto h2{
+    margin-top: 70px;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/*IMAGEMS DOS APPS*/
+.imagem-apps-celular {
+    margin-left: -70px;
+}
+/*NOMES DO LADO DIREIRO E ESQUERDO*/
+.esquerda {
+    margin-left: -16px;
+}
+.direita {
+    margin-top: -55px;
+    margin-left:104px;
+
+}
+.esquerda a{
+    margin-top: -45px;
+    margin-left: 30px;
+    padding: 5px 6px 5px 33px;
+    border-radius: 5px;
+    font-size: 7.5px;
+
+}
+.direita a{
+    margin-top: -45px;
+    margin-left: 30px;
+    padding: 5px 6px 5px 33px;
+    border-radius: 5px;
+    font-size: 7.5px;
+}
+
+/*VIDEOS DAS SETAS PARA O LADO*/
+.video-seta {
+    margin-left: -210px;
+}
+.video-seta-meio2{
+    position: absolute;
+    margin-top: -43px;
+    margin-left: -117px;
+    z-index: 10 !important;
+}
+.video-seta-meio2 video {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-top: 35px;
+    border-radius: 20px;
+
+
+}
+
+.video-seta-meio{ 
+    margin-left: 2px;
+    margin-top: -98px;
+    z-index: 10 !important;
+}
+.video-seta-meio video{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-top: 35px;
+    border-radius: 20px;
+
+}
+.esquerda .direita, h4{
+    margin-top: -33px;
+    margin-left: -13px;
+    font-size: 7px;
+
+}
+/*PARTE DA COPY */
+.ativa-apps {
+    padding: 45px 7px 0px 7px;
+}
+.ativar-copy h1{
+    font-size: 20px;
+}
+.ativar-copy p{
+    font-size: 20px;
+    margin-top: 22px;
+}
+.ativar-copy a{
+    font-size: 22px;
+    margin-left: -185px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 130px;
+
+}
+
+/*PARTE DAS IMAGEM DO WHATSAAP + VIDEO DA SETA PARA BAIXO*/
+.img-wapp{
+    margin-left: -110px;
+}
+.img-wapp img{
+    width: 65px;
+    margin-top: 12px;
+    margin-left: 110px;
+    z-index: 10;
+}
+.video-seta {
+    margin-left: -175px;
+}
+.video-seta video{
+    margin-top: 17px;
+    margin-left: 170px;
+    width: 110px;
+}
+
+/*FINAL SITE*/
+.fim-site h2{
+    font-size: 12px;
+    margin: 10px 30px 0px 30px;
+
+}
+.fim-site h5{
+    font-size: 13px;
+    margin: 25px 45px 0px 45px;
+}
+.fim-site h3{
+    font-size: 14px;
+
+}
+.footer1{
+    font-size: 8px;
+    margin-left: -0px;
+}
+
 
 }
