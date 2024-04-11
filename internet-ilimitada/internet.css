@@ -182,7 +182,9 @@ margin-right: -200px;
     background-color: #0a1033;
     transition: .6s;
 }
-
+#nao-aparecer{
+    display: none;
+}
 
 /* PARETE DOS CARDS DE PREÇOS - PLANO GOLD */
 .card-plano-gold{
@@ -499,4 +501,70 @@ background-color: #3538A1;
 ::-webkit-scrollbar-thumb{
     background-color: #df0b0bcc;
 
+}
+
+
+@media (min-width: 421px) and (max-width:930px) {
+    nav, header, section, main, div, footer{
+        display: none;
+    }
+    
+    #sumir{
+        display: none;
+    }
+    
+    
+    
+    #nao-aparecer{
+        display: block !important;
+        color: white;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 100px;
+    }
+    span{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #nao-aparecer h2{
+        margin-bottom: 50px;
+    }
+    
+    
+    
+}
+
+@media (min-width: 1030px) and (max-width:1300px) {
+    nav, header, section, main, div, footer{
+        display: none;
+    }
+    
+    #sumir{
+        display: none;
+    }
+    
+    
+    
+    #nao-aparecer{
+        display: block !important;
+        color: white;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 100px;
+    }
+    span{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #nao-aparecer h2{
+        margin-bottom: 50px;
+    }
+    
+    
 }

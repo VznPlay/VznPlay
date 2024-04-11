@@ -1,4 +1,4 @@
-@media (min-width: 468px) and (max-width:1024px){
+@media (max-width:1024px){
 
     br{
         display: none;
@@ -142,12 +142,4 @@ margin-left: 150px;
     margin-right: -20px;
     margin-bottom: -140px;
 }
-
-
-
-
-
-
-
-
 }

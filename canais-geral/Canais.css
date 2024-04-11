@@ -446,6 +446,10 @@ body{
     width: 150px;
 
 }
+#nao-aparecer{
+    display: none;
+
+}
 
 /*PARTE DO FOOTER, RODA PE DO SITE*/
 footer{
@@ -477,4 +481,69 @@ background-color: #3538A1;
 ::-webkit-scrollbar-thumb{
     background-color: #df0b0bcc;
 
+}
+
+@media (min-width: 421px) and (max-width:910px) {
+nav, header, main, footer{
+    display: none;
+}
+
+#sumir{
+    display: none;
+}
+
+
+
+#nao-aparecer{
+    display: block !important;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+span{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+#nao-aparecer h2{
+    margin-bottom: 50px;
+}
+
+
+
+}
+@media (min-width: 1040px) and (max-width:1360px) {
+    nav, header, main, footer{
+        display: none;
+    }
+    
+    #sumir{
+        display: none;
+    }
+    
+    
+    
+    #nao-aparecer{
+        display: block !important;
+        color: white;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 100px;
+    }
+    span{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #nao-aparecer h2{
+        margin-bottom: 50px;
+    }
+    
+    
+    
 }
