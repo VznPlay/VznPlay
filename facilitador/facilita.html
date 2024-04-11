@@ -28,7 +28,8 @@
 </nav>
 
 
-<!-- Links para celular apenas-->
+<!--PARTE APENAS PARA CELULARES-->
+
 <div class="copy-links">
 
 <a href="https://t.me/Ativadorapps" target="_blank">Telegram</a>
@@ -36,6 +37,17 @@
 <a href="https://api.whatsapp.com/send?phone=5598985730784&text=Gostaria%20de%20saber%20valores%20dos%20paines." target="_blank">Ser Um Revenda</a>
 
 </div>
+
+<div id="nao-aparecer">
+    <h2>
+        ESSA VERSAO NAO E COMPATIVEL COM ESSE TAMANHO DE TELA! &#128532;
+    </h2>
+    <p>
+        CASO ESTEJA LIGADO A VERSAO PARA COMPUTADOR <span>{DESKTOP}</span> DESLIGA PARA QUE O SITE VOLTE A FUNCIONAR NORMALMENTE <br> &#128515; &#128515;
+    </p>
+</div>
+
+<!-- FIM DA PARTE APENAS PARA CELULARES-->
 
 
 <!--PARTE DA COPY PRIMEIRA-->
@@ -51,12 +63,19 @@
             <img src="https://boldoppq.github.io/facilita-fotoss/logo-wapp.png" alt="logo do zap">
         </div>
         <div class="video-seta">
-            <video id="meuVideo" src="img/seta para baixo.mp4"autoplay loop></video>
-            <video id="meuVideo" src="img/seta para baixo.mp4"autoplay loop></video>
+
+            <video id="meuVideo" src="img/seta para baixo.mp4" autoplay loop></video>
+            <video id="meuVideo" src="img/seta para baixo.mp4" autoplay loop></video>
         </div>
-        
+
+        <div class="setas-lado">
+            <video id="meuVideo" src="img/setas.mp4" autoplay loop></video>
+            <video class="virar" id="meuVideo" src="img/setas.mp4" autoplay loop></video>
+        </div>
+
     </div>
 </header>
+
 
 <!--PARTE DOS APPS CELULAR E PC OUTROS-->
 <main>
@@ -408,6 +427,18 @@
     <img src="../img-favicon-logo/Logo-princ.png" alt="icne do site logo">
     <h3 class="footer1"> &copy; <strong class="vzn" >VznPlay</strong> Todos Os Direitos Reservados - 2022 / 2024</h3>
 </footer> 
+
+
+<script>
+    var video = document.getElementById('meuVideo');
+    video.play()
+        .then(() => {
+            console.log('Reprodução automática iniciada com sucesso.');
+        })
+        .catch((error) => {
+            console.error('Erro ao iniciar reprodução automática:', error);
+        });
+</script>
 
 
 </body>

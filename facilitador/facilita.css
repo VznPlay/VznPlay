@@ -112,12 +112,32 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -400px;
+    margin-left: -440px;
     margin-top: -74px;
+
 }
 .video-seta video{
     width: 130px;
-    margin-left: 400px
+    margin-left: 440px
+}
+.setas-lado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    margin-left: -350px;
+    display: block;
+}
+.setas-lado > video{
+    z-index: 10;
+    width: 80px;
+    margin-left: 350px;
+}
+.virar{
+    transform: rotate(180deg);
+}
+#nao-aparecer{
+    display: none;
 }
 
 /*APLICATIVOS*/
@@ -288,7 +308,7 @@ background-color: #3538A1;
 
 }
 
-@media (min-width: 468px) and (max-width:1024px){
+@media (max-width:1024px){
     /*PARTE DA LOGO E DO VOLTAR */
 .nav-logo > img{
     margin-left: 50px;
@@ -311,6 +331,40 @@ margin-left: 60px
     display: none;
 }
 
+}
+
+@media (min-width: 424px) and (max-width:900px) {
+    nav, div, header, main, section, footer, span {
+        display: none;
+    }
+    .nav-geral{
+        display: none;
+    }
+    
+    .copy-links{
+        display: none;
+    }
+    
+    #nao-aparecer{
+        display: block !important;
+        color: white;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 100px;
+    }
+    span{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #nao-aparecer h2{
+        margin-bottom: 50px;
+    }
+    
+    
+    
 }
 
 @media (max-width:420px) {
@@ -368,6 +422,9 @@ height: 16px;
 .copy-links a:hover{
     background-color: #9b0b0b;
     transition: 0.5s;
+}
+.setas-lado{
+    display: none;
 }
 
 /*PARTE DAS LINKS PARA CELULAR */
@@ -532,6 +589,40 @@ span{
 
 }
 
+@media (min-width: 376px) and (max-width:400px) {
+nav, div, header, main, section, footer, span {
+    display: none;
+}
+.nav-geral{
+    display: none;
+}
+
+.copy-links{
+    display: none;
+}
+
+#nao-aparecer{
+    display: block !important;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+span{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+#nao-aparecer h2{
+    margin-bottom: 50px;
+}
+
+
+
+}
+
 @media (max-width:375px){
 
 /*PARTE DAS IMAGENS E DA SETA PARA BAIXO */
@@ -604,7 +695,6 @@ span{
 
 
 }
-
 .video-seta-meio{ 
     margin-left: 2px;
     margin-top: -98px;
@@ -623,6 +713,9 @@ span{
     margin-left: -13px;
     font-size: 7px;
 
+}
+.setas-lado{
+    display: none;
 }
 /*PARTE DA COPY */
 .ativa-apps {
