@@ -333,7 +333,7 @@ margin-left: 60px
 
 }
 
-@media (min-width: 424px) and (max-width:900px) {
+@media (min-width: 424px) and (max-width:1000px) {
     nav, div, header, main, section, footer, span {
         display: none;
     }
@@ -563,16 +563,16 @@ height: 16px;
 
 /*FINAL SITE*/
 .fim-site h2{
-    font-size: 14px;
-    margin: 10px 20px 0px 20px;
+    font-size: 15px;
+    margin: 10px -30px 0px -30px;
 
 }
 .fim-site h5{
     font-size: 16px;
-    margin: 30px 40px 0px 40px;
+    margin: 30px -45px 0px -45px;
 }
 .fim-site h3{
-    margin: 20px 25px -40px 25px;
+    margin: 20px -45px -40px -45px;
     text-align: center;
     font-size: 15px;
     color: white;
@@ -760,12 +760,12 @@ span{
 /*FINAL SITE*/
 .fim-site h2{
     font-size: 12px;
-    margin: 10px 15px 0px 15px;
+    margin: 10px -25px 0px -25px;
 
 }
 .fim-site h5{
     font-size: 13px;
-    margin: 25px 45px 0px 45px;
+    margin: 25px -55px 0px -55px;
 }
 .fim-site h3{
     font-size: 14px;
