@@ -504,7 +504,7 @@ background-color: #3538A1;
 }
 
 
-@media (min-width: 424px) and (max-width:940px) {
+@media (min-width: 424px) and (max-width:990px) {
     nav, header, section, main, div, footer{
         display: none;
     }
