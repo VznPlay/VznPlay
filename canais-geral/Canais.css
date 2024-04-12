@@ -483,7 +483,7 @@ background-color: #3538A1;
 
 }
 
-@media (min-width: 421px) and (max-width:910px) {
+@media (min-width: 424px) and (max-width:940px) {
 nav, header, main, footer{
     display: none;
 }
@@ -515,7 +515,7 @@ span{
 
 
 }
-@media (min-width: 1040px) and (max-width:1360px) {
+@media (min-width: 422px) and (max-width:900px) {
     nav, header, main, footer{
         display: none;
     }

@@ -504,7 +504,7 @@ background-color: #3538A1;
 }
 
 
-@media (min-width: 421px) and (max-width:930px) {
+@media (min-width: 424px) and (max-width:940px) {
     nav, header, section, main, div, footer{
         display: none;
     }
@@ -537,7 +537,7 @@ background-color: #3538A1;
     
 }
 
-@media (min-width: 1030px) and (max-width:1300px) {
+@media (min-width: 422px) and (max-width:900px) {
     nav, header, section, main, div, footer{
         display: none;
     }
