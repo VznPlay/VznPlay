@@ -148,6 +148,7 @@ display: none;
 }
 
 /*PARTE DA TV BOX*/
+
 .tvbox img{
     margin-top: 10px;
     margin-left: 60px;
@@ -155,9 +156,10 @@ display: none;
 }
 .meio-tvbox{
     display: block;
+    height: 880px;
 }
 .copy-tvbox{
-    margin-left: 13px;
+    margin-left: 8px;
 }
 .copy-tvbox h2{
     font-size: 33px;
@@ -168,7 +170,7 @@ display: none;
     margin-left: 10px;
 }
 .copy-tvbox ul > li{
-    font-size: 13px;
+    font-size: 14px;
 }
 .tvbox a{
     display: flex;
