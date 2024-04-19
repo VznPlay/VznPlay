@@ -156,7 +156,7 @@ display: none;
 }
 .meio-tvbox{
     display: block;
-    height: 880px;
+    height: 800px;
 }
 .copy-tvbox{
     margin-left: 8px;
@@ -170,7 +170,7 @@ display: none;
     margin-left: 10px;
 }
 .copy-tvbox ul > li{
-    font-size: 14px;
+    font-size: 13px;
 }
 .tvbox a{
     display: flex;
