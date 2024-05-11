@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 body{
     background-color: #0a1033;
@@ -8,6 +8,20 @@ body{
     overflow-x: hidden;
 
 }
+.corred{
+    font-size: 22px;
+    color: rgb(250, 59, 1);
+}
+
+.reed{
+    color: white;
+    position: absolute;
+    font-size: 19px;
+    margin-top: -190px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 325px;
+}
+
 .copy-links{
     display: none;
 }
@@ -22,28 +36,35 @@ body{
 }
 .nav-logo img{
     width: 220px;
-    margin-left: 0px;
+    margin-left: -40px;
     margin-top: -12px;
 }
+
 .nav-ul{
-    margin-left: 40px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 17px;
     display: flex;
+
 }
 .nav-ul a{
     text-decoration: none;
+
 }
 .nav-ul a:hover{
     border-top: 2px solid black;
 }
 .nav-ul li{
-    font-size: 20px;
-    margin: 15px;
+    font-size: 24px;
+    margin:15px;
     color: black;
     font-weight: bold;
     list-style-type: none;
     font-family: 'Courier New', Courier, monospace;
+}
+#tele01{
+    margin-right: 70px;
+    margin-left: 50px;
 }
 .nav-voltar{
     font-family: 'Courier New', Courier, monospace;
@@ -106,35 +127,6 @@ body{
 .img-wapp img{
     width: 90px;
     margin-left: 180px;
-}
-.video-seta{
-    margin-top: -50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -440px;
-    margin-top: -74px;
-
-}
-.video-seta video{
-    width: 130px;
-    margin-left: 440px
-}
-.setas-lado{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -60px;
-    margin-left: -350px;
-    display: block;
-}
-.setas-lado > video{
-    z-index: 10;
-    width: 80px;
-    margin-left: 350px;
-}
-.virar{
-    transform: rotate(180deg);
 }
 #nao-aparecer{
     display: none;
@@ -307,6 +299,11 @@ background-color: #3538A1;
     background-color: #df0b0bcc;
 
 }
+@media (min-width:1400px){
+    .reed{
+        display: none;
+    }
+}
 
 @media (max-width:1024px){
     /*PARTE DA LOGO E DO VOLTAR */
@@ -329,6 +326,10 @@ margin-left: 60px
 }
 .fim-site br{
     display: none;
+}
+
+.reed{
+    margin-left: 155px;
 }
 
 }
@@ -405,15 +406,15 @@ height: 16px;
 .copy-links {
     display: block;
     position: absolute;
-    margin-top: 335px;
-    margin-left: 7px;
+    margin-top: 337px;
+    margin-left: 30px;
 }
 .copy-links a{
     color: white;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    margin: 5px;
+    margin: 20px;
     border: 1px solid rgb(255, 255, 255);
     box-shadow: 1px 1px 3px rgb(255, 255, 255);
     padding: 9px;
@@ -425,6 +426,12 @@ height: 16px;
 }
 .setas-lado{
     display: none;
+}
+
+.reed{
+    margin-left: -10px;
+    padding: 20px;
+
 }
 
 /*PARTE DAS LINKS PARA CELULAR */
@@ -531,6 +538,7 @@ height: 16px;
 }
 .ativar-copy h3{
     font-size: 22px;
+
 }
 .ativar-copy a{
     font-size: 24px;
@@ -627,8 +635,7 @@ span{
 
 /*PARTE DAS IMAGENS E DA SETA PARA BAIXO */
 .copy-links {
-    margin-top: 335px;
-    margin-left: 8px;
+    margin-top: 338px;
 }
 .copy-links a{
     font-size: 13px;
