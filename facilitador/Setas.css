@@ -4123,7 +4123,7 @@
 /* TAMANHOS PARA CELULAR*/
 @media (max-width:420px){
 
-.strongLAES1, .strongLAES2, .strongLADE1, .strongLADE2{
+.strongLAES1, .strongLAES2, .strongLADE1, .strongLADE2, .strongOUT58, .strongOUT59, .strongOUT64{
     display: none;
 }
 
@@ -5452,10 +5452,6 @@
     height: 10px;
     margin:-3px;
 
-}
-
-.strongOUT58, .strongOUT59{
-    display: none;
 }
 
 .strongOUTXX{
@@ -7194,6 +7190,10 @@
     height: 8px;
     margin:-2px;
 
+}
+
+.strongOUT58, .strongOUT59{
+    display: none;
 }
 
 .strongOUTXX{
