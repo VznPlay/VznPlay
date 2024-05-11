@@ -3267,7 +3267,7 @@
     position: absolute;
 
 }
-.strongOOUT59 strong{
+.strongOUT59 strong{
     width: 5px;
     height: 20px;
     background: rgb(255, 166, 0);
@@ -5452,6 +5452,10 @@
     height: 10px;
     margin:-3px;
 
+}
+
+.strongOUT58, .strongOUT59{
+    display: none;
 }
 
 .strongOUTXX{
