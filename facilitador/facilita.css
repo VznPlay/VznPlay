@@ -380,7 +380,7 @@ height: 16px;
 .copy-links {
     display: block;
     position: absolute;
-    margin-top: 337px;
+    margin-top: 370px;
     margin-left: 30px;
 }
 .copy-links a{
@@ -404,6 +404,7 @@ height: 16px;
 
 .reed{
     margin-left: -10px;
+    margin-top: -215px;
 
 }
 
@@ -460,44 +461,6 @@ height: 16px;
     border-radius: 7px;
 }
 
-/*VIDEOS DAS SETAS PARA O LADO*/
-.video-seta {
-    margin-left: -210px;
-        overflow-x: hidden; 
-}
-.video-seta-meio2{
-    position: absolute;
-    margin-top: -33px;
-    margin-left: -134px;
-    z-index: 10 !important;
-}
-.video-seta-meio2 video {
-    width: 28px;
-    height: 28px;
-    display: block;
-    margin-top: 32px;
-    border-radius: 20px;
-    overflow-x: hidden; 
-
-}
-.video-seta-meio{ 
-    margin-left: 2px;
-    margin-top: -90px;
-    z-index: 10 !important;
-}
-.video-seta-meio video{
-    width: 28px;
-    height: 28px;
-    display: block;
-    margin-top: 32px;
-    border-radius: 20px;
-}
-.esquerda .direita, h4{
-    margin-top: -26px;
-    margin-left: -10px;
-    font-size: 8px;
-
-}
 /*PARTE DA COPY */
 .ativa-apps {
     padding: 45px 5px 0px 5px;
@@ -511,6 +474,7 @@ height: 16px;
 }
 .ativar-copy h3{
     font-size: 22px;
+    padding-bottom: 45px;
 
 }
 .ativar-copy a{
@@ -532,14 +496,6 @@ height: 16px;
     margin-top: 12px;
     margin-left: 110px;
     z-index: 10;
-}
-.video-seta {
-    margin-left: -175px;
-}
-.video-seta video{
-    margin-top: 17px;
-    margin-left: 170px;
-    width: 110px;
 }
 
 /*FINAL SITE*/
@@ -608,7 +564,7 @@ span{
 
 /*PARTE DAS IMAGENS E DA SETA PARA BAIXO */
 .copy-links {
-    margin-top: 375px;
+    margin-top: 400px;
 }
 .copy-links a{
     font-size: 13px;
@@ -698,15 +654,6 @@ margin-top: -215px;
     margin-left: 110px;
     z-index: 10;
 }
-.video-seta {
-    margin-left: -175px;
-}
-.video-seta video{
-    margin-top: 17px;
-    margin-left: 170px;
-    width: 110px;
-}
-
 /*FINAL SITE*/
 .fim-site h2{
     font-size: 12px;
