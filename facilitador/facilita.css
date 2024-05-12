@@ -404,7 +404,6 @@ height: 16px;
 
 .reed{
     margin-left: -10px;
-    padding: 20px;
 
 }
 
@@ -609,7 +608,7 @@ span{
 
 /*PARTE DAS IMAGENS E DA SETA PARA BAIXO */
 .copy-links {
-    margin-top: 33px;
+    margin-top: 375px;
 }
 .copy-links a{
     font-size: 13px;
@@ -617,6 +616,7 @@ span{
 
 .reed{
 font-size: 17px;
+margin-top: -215px;
 }
 
 .corred{
@@ -670,6 +670,9 @@ font-size: 17px;
 }
 .ativar-copy h1{
     font-size: 20px;
+}
+.ativar-copy h3{
+    padding-bottom: 45px;
 }
 .ativar-copy p{
     font-size: 20px;
