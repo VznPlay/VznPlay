@@ -263,14 +263,14 @@ padding-bottom: 10px;
 color: white;
 }
 ::-webkit-scrollbar{
-   width: 6px;
+width: 6px;
 
 }
 ::-webkit-scrollbar-track{
 background-color: #3538A1;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #df0b0bcc;
+background-color: #df0b0bcc;
 
 }
 @media (min-width:1400px){
@@ -603,7 +603,7 @@ span{
         
         
         
-    }
+}
 
 @media (max-width:375px){
 
@@ -615,6 +615,13 @@ span{
     font-size: 13px;
 }
 
+.reed{
+font-size: 17px;
+}
+
+.corred{
+    font-size: 20px;
+}
 
 /*PARTE DAS LINKS PARA CELULAR */
 .copy-preto h2{
@@ -657,47 +664,6 @@ span{
     font-size: 7.5px;
 }
 
-/*VIDEOS DAS SETAS PARA O LADO*/
-.video-seta {
-    margin-left: -210px;
-}
-.video-seta-meio2{
-    position: absolute;
-    margin-top: -43px;
-    margin-left: -117px;
-    z-index: 10 !important;
-}
-.video-seta-meio2 video {
-    width: 25px;
-    height: 25px;
-    display: block;
-    margin-top: 35px;
-    border-radius: 20px;
-
-
-}
-.video-seta-meio{ 
-    margin-left: 2px;
-    margin-top: -98px;
-    z-index: 10 !important;
-}
-.video-seta-meio video{
-    width: 25px;
-    height: 25px;
-    display: block;
-    margin-top: 35px;
-    border-radius: 20px;
-
-}
-.esquerda .direita, h4{
-    margin-top: -33px;
-    margin-left: -13px;
-    font-size: 7px;
-
-}
-.setas-lado{
-    display: none;
-}
 /*PARTE DA COPY */
 .ativa-apps {
     padding: 45px 7px 0px 7px;
